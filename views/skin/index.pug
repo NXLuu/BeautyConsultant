@@ -69,5 +69,51 @@ html(lang='en')
             option(value='Không nhìn thấy') Không nhìn thấy
             option(value='To') To
             option(value='Nhỏ') Nhỏ
+        .mb-3
+          label.form-label(for='exampleInputEmail1') Tính chất công việc của bạn?
+          select.form-select(aria-label='Bạn đánh giá màu da của bạn thế nào?' name="work")
+            option(value='Trong phòng diều hòa') Trong phòng diều hòa
+            option(value='Trong phòng bình thường') Trong phòng bình thường
+            option(value='Ngoài trời') Ngoài trời
+        .mb-3
+          label.form-label(for='exampleInputEmail1') Bạn có bị vấn đề về mụn không?
+          .form-check
+            input#flexRadioDefault1.form-check-input(type='radio' name='acne' checked='' value="Y")
+            label.form-check-label(for='flexRadioDefault1')
+              | Có
+          .form-check
+            input#flexRadioDefault2.form-check-input(type='radio' name='acne' value='N')
+            label.form-check-label(for='flexRadioDefault2')
+              | Không
+        .mb-3
+          label.form-label(for='exampleInputEmail1') Bạn có quan tâm đến vấn đề trị thâm không
+          .form-check
+            input#flexRadioDefault1.form-check-input(type='radio' name='deep' checked='' value="Y")
+            label.form-check-label(for='flexRadioDefault1')
+              | Có
+          .form-check
+            input#flexRadioDefault2.form-check-input(type='radio' name='deep' value='N')
+            label.form-check-label(for='flexRadioDefault2')
+              | Không
+        .mb-3
+          label.form-label(for='exampleInputEmail1') Bạn có quan tâm đến vấn đề lão hóa không?
+          .form-check
+            input#flexRadioDefault1.form-check-input(type='radio' name='old' checked='' value="Y")
+            label.form-check-label(for='flexRadioDefault1')
+              | Có
+          .form-check
+            input#flexRadioDefault2.form-check-input(type='radio' name='old' value='N')
+            label.form-check-label(for='flexRadioDefault2')
+              | Không
+        .mb-3
+          label.form-label(for='exampleInputEmail1') Bạn có đang mang thai không
+          .form-check
+            input#flexRadioDefault1.form-check-input(type='radio' name='pregnant' checked='' value="Y")
+            label.form-check-label(for='flexRadioDefault1')
+              | Có
+          .form-check
+            input#flexRadioDefault2.form-check-input(type='radio' name='pregnant' value='N')
+            label.form-check-label(for='flexRadioDefault2')
+              | Không    
         button.btn.btn-primary(type='submit') Submit
     h1 hello #{facts.user.name}

@@ -1,5 +1,7 @@
 const skinRules = require('../controllers/skin.rule');
+const db = require('../db.js');
 const { Rools, Rule } = require('rools');
+let user = require('../function/user.js');
 class SkinController {
     constructor() {
         this.index = this.index.bind(this);
@@ -25,7 +27,7 @@ class SkinController {
 
     async index(req, res, next) {
         // let 
-        let facts = await this.start();
+        let facts = user.getFacts(req.cookies.id);
 
         res.render('skin/index', {
             facts: facts,
@@ -34,18 +36,16 @@ class SkinController {
 
     async post(req, res, next) {
         // let 
-        console.log(req.body);
-        const facts = {
-            user: {
-                name: 'frank',
-                stars: 347,
-            },
-            skins: {
-                normalP: 0,
-                dryP: 0,
-                oilP: 0,
-                combineP: 0,
-            },
+        let id = req.cookies.id;
+        const facts = user.getFacts(id);
+
+        facts.skins = {
+            normalP: 0,
+            dryP: 0,
+            oilP: 0,
+            combineP: 0,
+            product: [],
+            sunProtect: {}
         };
 
         for (let attr in req.body) {
@@ -58,6 +58,8 @@ class SkinController {
         await rools.evaluate(facts);
 
         console.log(facts);
+        
+        user.update(id, facts);
 
         res.render('skin/index', {
             facts: facts,

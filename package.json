@@ -10,11 +10,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
     "express": "^4.17.2",
+    "fuzzyis": "^1.0.2",
+    "lowdb": "^1.0.0",
     "pug": "^3.0.2",
-    "rools": "^2.3.0"
+    "rools": "^2.3.0",
+    "simple-json-db": "^1.2.3",
+    "uuidv4": "^6.2.12"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "db.json"
+    ],
+    "delay": 2500
   }
 }

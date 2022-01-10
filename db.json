@@ -1,0 +1,101 @@
+{
+  "users": [
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "14"
+      },
+      "skins": {
+        "normalP": 0,
+        "dryP": 0,
+        "oilP": 0,
+        "combineP": 0,
+        "product": [],
+        "sunProtect": {}
+      },
+      "id": "bf54c61d-1b35-4d3d-94df-f2e4309502ae"
+    },
+    {
+      "user": {
+        "name": "fas",
+        "age": "124"
+      },
+      "skins": {
+        "normalP": 0,
+        "dryP": 0,
+        "oilP": 0,
+        "combineP": 0,
+        "product": [],
+        "sunProtect": {}
+      },
+      "id": "174a870a-3f13-4934-8d4b-262b769d7f93"
+    },
+    {
+      "user": {
+        "name": "admin",
+        "age": "14"
+      },
+      "skins": {
+        "normalP": 40,
+        "dryP": 50,
+        "oilP": 125,
+        "combineP": 150,
+        "product": [
+          "Niacinamide (5%-10%)"
+        ],
+        "sunProtect": {
+          "spf": "SPF 50",
+          "type": "Chống nắng hóa học"
+        },
+        "balance": "N",
+        "color": "Da sáng bóng",
+        "oilT": "Y",
+        "suface": "Da thô ráp",
+        "isStretch": "N",
+        "pores": "To",
+        "work": "Ngoài trời",
+        "acne": "Y",
+        "deep": "Y",
+        "old": "Y",
+        "pregnant": "Y",
+        "toner": "Da đều màu",
+        "type": "Da hỗn hợp"
+      },
+      "id": "11b1a05e-6be3-4641-bc10-fb543de7b1c8"
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "40"
+      },
+      "skins": {
+        "normalP": 5,
+        "dryP": 95,
+        "oilP": 165,
+        "combineP": 40,
+        "product": [
+          "Niacinamide (5%-10%)",
+          "Niacinamide (>20%)"
+        ],
+        "sunProtect": {
+          "spf": "SPF 15 hoặc SPF 30",
+          "type": "Chống nắng hóa học"
+        },
+        "balance": "N",
+        "color": "Da sáng bóng",
+        "oilT": "N",
+        "suface": "Da thô ráp",
+        "isStretch": "N",
+        "toner": "Da không đều màu",
+        "pores": "To",
+        "work": "Trong phòng diều hòa",
+        "acne": "Y",
+        "deep": "Y",
+        "old": "Y",
+        "pregnant": "Y",
+        "type": "Da dầu"
+      },
+      "id": "8c258c92-990d-4a47-8173-b3b3e9e0e90c"
+    }
+  ]
+}
