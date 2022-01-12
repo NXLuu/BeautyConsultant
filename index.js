@@ -18,7 +18,7 @@ app.use(express.json()) // for parsing application/json
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
 app.use(express.static('public'))
 
-app.use('/result', resRoute);
+app.use('/result', userMiddleware.requireAuth, resRoute);
 app.use('/create-user', userRoute);
 app.use('/skin', userMiddleware.requireAuth, skinRoute);
 app.use('/body', userMiddleware.requireAuth, bodyRoute);

@@ -16,9 +16,7 @@ html(lang='en')
         p.info-age
           | Tuổi: 
           span #{facts.user.age}
-        p.info-gender
-          | Phân loại da: 
-          span #{facts.skins.type}
+       
       if (typeof(facts.skins) !== 'undefined')
         .skin
           h2.info-head tư vấn về da
@@ -44,7 +42,7 @@ html(lang='en')
           p.info-name
             | Môi trường làm việc: 
             span #{facts.skins.work}
-          
+          h3 Phân loại da: #{facts.skins.type}
           h3 Tip cho da bạn:
           p.skin-text
             | #{facts.skins.tip}
@@ -81,6 +79,8 @@ html(lang='en')
             p.info-name
               | Điều trị: 
               span #{facts.acne.treatment}
+      else 
+        a(href="/skin") Tư vấn da
       if (typeof(facts.body) !== 'undefined')
         .body
           h2.info-head tư vấn về dáng người
@@ -99,6 +99,8 @@ html(lang='en')
                   span 
                   | #{val.name}
                   img(src="/pic/"+val.pic, alt="anh", srcset="",  height="100")
+      else 
+        a(href="/body") Tư vấn dáng người
       if (typeof(facts.face) !== 'undefined')
         .face
           h2.info-head tư vấn về khuôn mặt
@@ -110,3 +112,5 @@ html(lang='en')
                 li
                   h5 #{val.name}: 
                   span #{val.des}: 
+      else 
+        a(href="/face") Tư vấn khuôn mặt

@@ -16,14 +16,6 @@ class UserController {
     postForm(req, res, next) {
         let facts = {
             user:{},
-            skins: {
-                normalP: 0,
-                dryP: 0,
-                oilP: 0,
-                combineP: 0,
-                product: [],
-                sunProtect: {}
-            },
         };
 
         console.log(req.body)
