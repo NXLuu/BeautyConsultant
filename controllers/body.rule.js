@@ -215,13 +215,4 @@ bodyRules[11] = new Rule({
     },
 });
 
-bodyRules[12] = new Rule({
-    name: 'DN5',
-    when: [
-        (facts) => facts.body.type = "Dáng tam giác ngược",
-    ],
-    then: (facts) => {
-        facts.body.type = "Dáng tam giác ngược";
-    },
-});
 module.exports = bodyRules;
