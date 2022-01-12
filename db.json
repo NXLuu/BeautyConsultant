@@ -21,6 +21,222 @@
         "age": "34"
       },
       "id": "047e788e-0a09-4aef-a178-726ea3a44c46"
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "34"
+      },
+      "id": "d5fc59b8-00c7-4e9a-824f-4ea81dbb6848",
+      "skins": {
+        "normalP": 65,
+        "dryP": 160,
+        "oilP": 35,
+        "combineP": 30,
+        "product": [
+          "Niacinamide (<5%)",
+          "Niacinamide (>20%)"
+        ],
+        "sunProtect": {
+          "spf": "SPF 15 hoặc SPF 30",
+          "type": "Chống nắng vật lý"
+        },
+        "balance": "N",
+        "color": "Da xỉn màu",
+        "oilT": "N",
+        "suface": "Da mịn màng",
+        "isStretch": "N",
+        "toner": "N",
+        "pores": "Không nhìn thấy",
+        "work": "Trong phòng diều hòa",
+        "acne": "N",
+        "deep": "N",
+        "old": "N",
+        "pregnant": "N",
+        "type": "Da khô",
+        "forms": "cream có oil",
+        "tip": "Tránh rửa mặt quá nhiều do nó có thể dẫn đến việc khô da. Vì thế buổi sáng không cần phải rửa mặt nếu đã làm nó vào buổi tố. serum chống oxy hóa, kem dưỡng mắt và kem dưỡng ẩm có chỉ số SPF 30 hoặc cao hơn. Vào cuối ngày, hãy sử dụng kem hoặc chất tẩy rửa dạng dầu không làm mất đi lớp dầu tự nhiên của da và thoa kem dưỡng ẩm ban đêm.",
+        "goodGradient": [
+          "Hyaluronic acid: có thể hấp thụ gấp 1.000 lần trọng lượng của nó trong nước, làm cho nó trở thành một thành phần chính khi chống lại làn da khô",
+          "Glycerine: chất giữ ẩm hiệu quả nhất",
+          "Squalane: Hoạt động tương tự bã nhờn, giúp da không bị mất nước trong giấc ngủ."
+        ],
+        "badGradient": [
+          "Denatured alcohols: Chất làm se da.",
+          "Fragrances: Nước hoa là chất gây kích ứng da phổ biến và nổi tiếng là nguyên nhân hàng đầu gây dị ứng da. Mặc dù không phải là vấn đề đối với tất cả mọi người, nhưng da khô sẽ khiến bạn dễ bị kích ứng hơn",
+          "Salicylic Acid:  Khi sử dụng cho da khô, nó có thể dẫn đến mẩn đỏ, kích ứng và viêm do thiếu dầu."
+        ]
+      },
+      "body": {
+        "bust": 90,
+        "hip": 90,
+        "waist": 60,
+        "type": "Dáng tam giác ngược",
+        "exercise": "Thực hiện các bài tập Cardio. Cải thiện thân dưới bằng các bài tập gym cho hông nở. Tập luyện săn chắc thân trên.",
+        "food": "Hạn chế đồ ngọt cũng những thực phẩm chứa nhiều tinh bột, để tránh làm tăng lượng đường trong cơ thể, dẫn đến tích tụ mỡ thừa.",
+        "clothes": [
+          {
+            "name": "Áo: Những chiếc áo giúp tạo độ sâu ở phần ngực, giúp vai gọn như: dáng áo hình chữ U, hoặc chữ V, dáng lệch vai đều là những lựa chọn tuyệt vời dành cho dáng tam giác ngược. Tay áo phải làm cho vai thon gọn hơn. Chọn những loại tay áo rộng có độ rủ, hoặc dáng tay áo có đường cắt giúp phần trên nhỏ hơn so với thực tế. Khi phối đồ bạn nên chọn màu áo tối hơn so với màu quần hoặc chân váy, chọn loại áo sơ mi cổ nhỏ, không họa tiết, hoặc họa tiết ít/nhỏ để chuyển sự chú ý tới phần dưới của cơ thể.",
+            "pic": "TG-AO.png"
+          },
+          {
+            "name": "Quần: Dáng quần như baggy, turns up, quần nhiều túi, hoặc túi hộp (combat, Cargo), quần ống lửng, quần rộng ống, quần ống loe, quần harem -> Làm phần thân dưới của bạn trông to hơn",
+            "pic": "TG-Q.png"
+          },
+          {
+            "name": "Chân váy: Những dáng váy xòe, phồng từ phần hông trở xuống đều giúp vòng 3 lớn hơn như dáng váy xòe tròn, dáng váy chữ A, dáng váy xòe (Ba lê), dáng dập ly rủ (bias cut),",
+            "pic": "TG-CV.png"
+          },
+          {
+            "name": "Váy: Những dáng váy mặc đẹp đơn giản là những dáng có đường thẳng phía trên và phồng phía dưới như váy chữ A, váy triết ngực, váy xuông đều là sự lựa chọn của bạn.",
+            "pic": "TG-V.png"
+          }
+        ]
+      },
+      "face": {
+        "foreHeadW": 23,
+        "faceL": 32,
+        "cheekW": 23,
+        "jawLine": 15,
+        "a1": 87,
+        "a2": 76,
+        "a3": 76,
+        "type": "Mặt chữ nhật, thuôn dài",
+        "hair": [
+          {
+            "name": "Kiểu tóc ngắn tỉa layer",
+            "des": "Với kiểu tóc này, bạn sẽ được cắt tỉa tóc thành nhiều lớp khác nhau một cách tinh tế để che đi chiều dài của khuôn mặt chữ nhật. Vì thế, nhìn vào đó, bạn sẽ thấy một cấu trúc mặt hài hòa cân xứng hơn. Bạn có thể phá cách hơn với phần tóc bên hàm bằng cách bo cụp vào hoặc ngắn hẳn lên để khuôn mặt thêm nhỏ nhắn và xinh xắn."
+          },
+          {
+            "name": "Kiểu tóc xoăn đuôi gợn sóng",
+            "des": "Phần đuôi tóc gợn sóng tạo ra độ mềm mại kết hợp với chiều dài của tóc vừa phải sẽ thu ngắn sự chênh lệch tỷ lệ dài rộng của khuôn mặt. Nhờ đó, bạn sẽ thấy khuôn mặt của mình trở nên đáng yêu, bầu bình hơn."
+          },
+          {
+            "name": "Tóc dài xoăn wavy",
+            "des": "Các cô gái có mặt chữ nhật và phần hàm rộng thì nên chọn kiểu tóc xoăn wavy nhé. Chúng sẽ hô biến làm cho khuôn mặt được gọn gàng hơn phần gò má, quai hàm và cân xứng với chiều dài rộng của khuôn mặt."
+          }
+        ]
+      }
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "34"
+      },
+      "id": "74287116-60f1-479b-892d-270eb42d7dec",
+      "skins": {
+        "normalP": 115,
+        "dryP": 70,
+        "oilP": 105,
+        "combineP": 55,
+        "product": [
+          "Retinol",
+          "Niacinamide (>20%)",
+          "Da bạn hay tiếp xúc nhiều với bụi bẩn bổ sung thêm AHA (Axit mandelic, axit lactic)và  (Axit béo) gia tăng khả năng làm sạch"
+        ],
+        "sunProtect": {
+          "type": "Chống nắng vật lý",
+          "label": "Very water resistant",
+          "spf": "SPF 50"
+        },
+        "balance": "N",
+        "color": "Da xỉn màu",
+        "oilT": "N",
+        "suface": "Da mịn màng",
+        "isStretch": "N",
+        "toner": "N",
+        "pores": "Nhỏ",
+        "work": "Ngoài trời",
+        "acne": "Y",
+        "deep": "N",
+        "old": "N",
+        "pregnant": "N",
+        "type": "Da thường",
+        "forms": "gel, lotion",
+        "tip": "Hãy sử dụng các sản phẩm dịu nhẹ và có tác dụng nuôi dưỡng, cấp nước và mang lại sự cân bằng cho làn da của bạn.Giữ mọi thứ đơn giản.không cần mất nhiều thời gian lựa chọn mỹ phẩm chăm sóc da phù hợp.Tuy nhiên, nên lựa chọn các dòng mỹ phẩm có nguồn gốc, uy tín, tránh dùng các sản phẩm trắng nhanh.",
+        "goodGradient": [
+          "Dimethicone: Làm mịn và mền da mà không có dầu",
+          "Algae Extract: chất giữ ẩm nguồn gốc tảo biển",
+          "Panthenol: provitamin B5: dưỡng ẩm làm mềm, dịu không gây kích ứng",
+          "Sodium Hyaluronate: HA có tác dụng hỗ trợ sản xuất collagen trong cơ thể và giúp duy trì độ đàn hồi",
+          "Glycolic Acid: Thuộc họ AHA dễ dàng hấp thụ, thẩm thấu sâu. An toàn cho mọi loại da. Làn da sáng hơn đều màu hơn."
+        ],
+        "badGradient": [
+          "SD Alcohol 40, Denatured Alcohol, Ethanol and Isopropyl Alcohol: Có thể làm khô da.",
+          "Mineral Oil, Petrolatum: Thành phần này có thể gây tắc lỗ chân lông trên da",
+          "Isopropyl Myristate and Isopropyl Palmitate: Thành phần này có thể khuyến khích lỗ chân lông bị tắc"
+        ],
+        "timeCare": "<6",
+        "sweat": "Y"
+      },
+      "acne": {
+        "redness": "N",
+        "parts": "Mũi",
+        "painful": "N",
+        "pus": "N",
+        "hard": "Y",
+        "color": "Trắng",
+        "noOfLession": "15",
+        "category": "Không bỏng rát",
+        "cateParts": "Thông thường",
+        "areaP": 1,
+        "type": "Không viêm",
+        "name": "Mụn trứng cá",
+        "treatment": "topical retinoid",
+        "typeP": 0,
+        "pic": "white-head.png",
+        "severity": 2.25
+      },
+      "body": {
+        "bust": 90,
+        "hip": 90,
+        "waist": 60,
+        "type": "Dáng tam giác ngược",
+        "exercise": "Thực hiện các bài tập Cardio. Cải thiện thân dưới bằng các bài tập gym cho hông nở. Tập luyện săn chắc thân trên.",
+        "food": "Hạn chế đồ ngọt cũng những thực phẩm chứa nhiều tinh bột, để tránh làm tăng lượng đường trong cơ thể, dẫn đến tích tụ mỡ thừa.",
+        "clothes": [
+          {
+            "name": "Áo: Những chiếc áo giúp tạo độ sâu ở phần ngực, giúp vai gọn như: dáng áo hình chữ U, hoặc chữ V, dáng lệch vai đều là những lựa chọn tuyệt vời dành cho dáng tam giác ngược. Tay áo phải làm cho vai thon gọn hơn. Chọn những loại tay áo rộng có độ rủ, hoặc dáng tay áo có đường cắt giúp phần trên nhỏ hơn so với thực tế. Khi phối đồ bạn nên chọn màu áo tối hơn so với màu quần hoặc chân váy, chọn loại áo sơ mi cổ nhỏ, không họa tiết, hoặc họa tiết ít/nhỏ để chuyển sự chú ý tới phần dưới của cơ thể.",
+            "pic": "TG-AO.png"
+          },
+          {
+            "name": "Quần: Dáng quần như baggy, turns up, quần nhiều túi, hoặc túi hộp (combat, Cargo), quần ống lửng, quần rộng ống, quần ống loe, quần harem -> Làm phần thân dưới của bạn trông to hơn",
+            "pic": "TG-Q.png"
+          },
+          {
+            "name": "Chân váy: Những dáng váy xòe, phồng từ phần hông trở xuống đều giúp vòng 3 lớn hơn như dáng váy xòe tròn, dáng váy chữ A, dáng váy xòe (Ba lê), dáng dập ly rủ (bias cut),",
+            "pic": "TG-CV.png"
+          },
+          {
+            "name": "Váy: Những dáng váy mặc đẹp đơn giản là những dáng có đường thẳng phía trên và phồng phía dưới như váy chữ A, váy triết ngực, váy xuông đều là sự lựa chọn của bạn.",
+            "pic": "TG-V.png"
+          }
+        ]
+      },
+      "face": {
+        "foreHeadW": 15,
+        "faceL": 21,
+        "cheekW": 16,
+        "jawLine": 10,
+        "a1": 90,
+        "a2": 78,
+        "a3": 77,
+        "type": "Mặt chữ nhật, thuôn dài",
+        "hair": [
+          {
+            "name": "Kiểu tóc ngắn tỉa layer",
+            "des": "Với kiểu tóc này, bạn sẽ được cắt tỉa tóc thành nhiều lớp khác nhau một cách tinh tế để che đi chiều dài của khuôn mặt chữ nhật. Vì thế, nhìn vào đó, bạn sẽ thấy một cấu trúc mặt hài hòa cân xứng hơn. Bạn có thể phá cách hơn với phần tóc bên hàm bằng cách bo cụp vào hoặc ngắn hẳn lên để khuôn mặt thêm nhỏ nhắn và xinh xắn."
+          },
+          {
+            "name": "Kiểu tóc xoăn đuôi gợn sóng",
+            "des": "Phần đuôi tóc gợn sóng tạo ra độ mềm mại kết hợp với chiều dài của tóc vừa phải sẽ thu ngắn sự chênh lệch tỷ lệ dài rộng của khuôn mặt. Nhờ đó, bạn sẽ thấy khuôn mặt của mình trở nên đáng yêu, bầu bình hơn."
+          },
+          {
+            "name": "Tóc dài xoăn wavy",
+            "des": "Các cô gái có mặt chữ nhật và phần hàm rộng thì nên chọn kiểu tóc xoăn wavy nhé. Chúng sẽ hô biến làm cho khuôn mặt được gọn gàng hơn phần gò má, quai hàm và cân xứng với chiều dài rộng của khuôn mặt."
+          }
+        ]
+      }
     }
   ]
 }

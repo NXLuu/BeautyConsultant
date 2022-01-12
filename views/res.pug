@@ -80,7 +80,9 @@ html(lang='en')
               | Điều trị: 
               span #{facts.acne.treatment}
       else 
-        a(href="/skin") Tư vấn da
+        .btn
+          a(href='/skin')
+            button.btn-btn Tư vấn da
       if (typeof(facts.body) !== 'undefined')
         .body
           h2.info-head tư vấn về dáng người
@@ -100,7 +102,9 @@ html(lang='en')
                   | #{val.name}
                   img(src="/pic/"+val.pic, alt="anh", srcset="",  height="100")
       else 
-        a(href="/body") Tư vấn dáng người
+        .btn
+            a(href='/body')
+              button.btn-btn Tư vấn dáng người
       if (typeof(facts.face) !== 'undefined')
         .face
           h2.info-head tư vấn về khuôn mặt
@@ -113,4 +117,6 @@ html(lang='en')
                   h5 #{val.name}: 
                   span #{val.des}: 
       else 
-        a(href="/face") Tư vấn khuôn mặt
+        .btn
+            a(href='/face')
+              button.btn-btn Tư vấn khuôn mặt

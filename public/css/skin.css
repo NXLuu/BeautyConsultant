@@ -30,28 +30,6 @@ body {
 
 }
 
-.alert-danger .alert-link {
-  color: #6a1a21;
-}
-
-.alert-link {
-  font-weight: 700;
-}
-
-.alert-danger {
-  color: #842029;
-  background-color: #f8d7da;
-  border-color: #f5c2c7;
-}
-
-.alert {
-  position: relative;
-  padding: 1rem 1rem;
-  margin-bottom: 1rem;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-}
-
 ul {
   list-style-type: none;
   padding-left: 50px;
@@ -229,4 +207,18 @@ h1 {
   background-position: center;
   transition-delay: 0.2s !important;
   transition: all 0.25s cubic-bezier(0, 1.05, 0.72, 1.07);
+}
+
+#bust, #hip, #waist, #jawLine, #cheekW, #faceL, #foreHeadW, #a1, #a2, #a3 {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  outline: none;
+  margin-bottom: 10px;
+  font-family: "Nunito", sans-serif;
+}
+
+.face img {
+  display: block;
+  margin: auto;
 }

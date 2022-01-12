@@ -77,7 +77,7 @@ faceRules[4] = new Rule({
 faceRules[5] = new Rule({
     name: 'DN5',
     when: [
-        (facts) => facts.face.type = "Mặt trái tim",
+        (facts) => facts.face.type === "Mặt trái tim",
     ],
     then: (facts) => {
         facts.face.hair = [
@@ -100,7 +100,7 @@ faceRules[5] = new Rule({
 faceRules[6] = new Rule({
     name: 'DN6',
     when: [
-        (facts) => facts.face.type = "Mặt trái xoan",
+        (facts) => facts.face.type === "Mặt trái xoan",
     ],
     then: (facts) => {
         facts.face.hair = [
@@ -127,7 +127,7 @@ faceRules[6] = new Rule({
 faceRules[7] = new Rule({
     name: 'DN7',
     when: [
-        (facts) => facts.face.type = "Mặt tròn",
+        (facts) => facts.face.type === "Mặt tròn",
     ],
     then: (facts) => {
         facts.face.hair = [
@@ -150,7 +150,7 @@ faceRules[7] = new Rule({
 faceRules[8] = new Rule({
     name: 'DN8',
     when: [
-        (facts) => facts.face.type = "Mặt vuông",
+        (facts) => facts.face.type === "Mặt vuông",
     ],
     then: (facts) => {
         facts.face.hair = [
@@ -173,7 +173,7 @@ faceRules[8] = new Rule({
 faceRules[9] = new Rule({
     name: 'DN9',
     when: [
-        (facts) => facts.face.type = "Mặt chữ nhật, thuôn dài"
+        (facts) => facts.face.type === "Mặt chữ nhật, thuôn dài"
     ],
     then: (facts) => {
         facts.face.hair = [
