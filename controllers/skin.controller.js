@@ -32,15 +32,24 @@ class SkinController {
 
     async index(req, res, next) {
         // let 
-        // let facts = user.getFacts(req.cookies.id);
-        let facts = await this.start();
+        let facts = user.getFacts(req.cookies.id);
+
+        facts.skins = {
+            normalP: 0,
+            dryP: 0,
+            oilP: 0,
+            combineP: 0,
+            product: [],
+            sunProtect: {}
+        }
+
         let arrayQues = [];
 
         for (let ele of listQues) {
             if (ele.checkCondition(facts))
                 arrayQues.push(ele);
         }
-        
+
         res.render('skin/index2', {
             questions: arrayQues,
             action: '/skin/skin1'
@@ -94,7 +103,7 @@ class SkinController {
                 res.redirect('/result');
             }
         }
-            
+
     }
 }
 
