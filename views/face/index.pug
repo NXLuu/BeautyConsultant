@@ -1,0 +1,54 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet' href='/css/skin.css')
+    link(rel='stylesheet' href='/test.css')
+
+
+    title Beauty Consultant
+  body
+    .container
+
+      form(method="post" action= action)
+        if error
+          .alert.alert-danger(role='alert')
+            | #{mess}
+            a.alert-link(href='/skin/result' style="margin-left: 10px") 
+              | bỏ qua
+       
+        .card
+            h2
+                | Độ rông chám? (Cm)
+            input(id='foreHeadW' type="number" name='foreHeadW')
+            img(src="/pic/forehead.png", alt="", srcset="" height="300" width="300")
+        .card
+            h2
+                | Chiều dài khuôn mặt? (Cm)
+            input(id='faceL' type="number" name='faceL')
+            img(src="/pic/face.png", alt="", srcset="" height="300" width="300")
+        .card
+            h2
+                | Độ rộng xương gò má? (Cm)
+            input(id='cheekW' type="number" name='cheekW')
+            img(src="/pic/cheek.png", alt="", srcset="" height="300" width="300")
+        .card
+            h2
+                | Chiều dài xương hàm? (Cm)
+            input(id='jawLine' type="number" name='jawLine')
+            img(src="/pic/jawline.png", alt="", srcset="" height="300" width="300")
+        .card
+            h2
+                | Góc a1 (1 - 4)
+            input(id='a1' type="number" name='a1' height="300" width="300")
+            h2
+                | Góc a2 (4 - 6)
+            input(id='a2' type="number" name='a2' height="300" width="300")
+            h2
+                | Góc a3 (6 - 8)
+            input(id='a3' type="number" name='a3' height="300" width="300")
+            img(src="/pic/facepoint1.jpg", alt="", srcset="" height="500" )
+        button.submit-btn(value='submit') Submit
+

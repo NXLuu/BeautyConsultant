@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(../pic/bg.jfif);
+  font-family: "Nunito", sans-serif;
+}
+
+.center {
+  position: relative;
+  background: #fff;
+  border-radius: 10px;
+  z-index: 1;
+  --growth-from: 0.1;
+  --growth-to: 1;
+  animation: growth linear 0.3s;
+}
+
+.center h1 {
+  border-left: 5px solid rgb(123 91 105);
+  padding: 10px;
+  margin-bottom: 60px;
+  padding-left: 10px;
+  color: #7d695e;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.center .inputbox {
+  position: relative;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.center .inputbox input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 2px solid #000;
+  outline: none;
+  background: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+
+.center .inputbox:last-child {
+  margin-bottom: 0;
+  width: 30%;
+  position: absolute;
+  right: 50px;
+  bottom: -56px;
+}
+
+.center .inputbox span {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  font-size: 14px;
+  /* font-weight: 700; */
+  transition: 0.6s;
+  font-family: "Nunito", sans-serif;
+}
+
+.center .inputbox input:focus~span,
+.center .inputbox input:valid~span {
+  transform: translateX(-13px) translateY(-35px);
+  font-size: 1em;
+}
+
+.center .inputbox [type="submit"] {
+  background: #7d695e;
+  color: #fff;
+  border: #7d695e;
+  font-family: "Nunito", sans-serif;
+}
+
+.center .inputbox:hover [type="submit"] {
+  background: #55311c;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  animation: fadeIn ease-in-out 0.9s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes growth {
+  from {
+    transform: scale(var(--growth-from));
+  }
+
+  to {
+    transform: scale(var(--growth-to));
+  }
+}

@@ -40,7 +40,7 @@ class UserController {
 
 
             
-        res.redirect('/skin');
+        res.redirect('/cate');
     }
 }
 

@@ -1,0 +1,112 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet' href='./css/result.css')
+    title Kết quả
+  body
+    .container
+      .info
+        h2.info-head quý danh vị hảo hán
+        p.info-name
+          | Tên: 
+          span #{facts.user.name}
+        p.info-age
+          | Tuổi: 
+          span #{facts.user.age}
+        p.info-gender
+          | Phân loại da: 
+          span #{facts.skins.type}
+      if (typeof(facts.skins) !== 'undefined')
+        .skin
+          h2.info-head tư vấn về da
+          h3 Thông tin đã nhập
+          p.info-name
+            | Da cân bằng: 
+            span #{facts.skins.balance}
+          p.info-name
+            | Màu da: 
+            span #{facts.skins.color}
+          p.info-name
+            | Dầu ở vùng chữ T: 
+            span #{facts.skins.oilT}
+          p.info-name
+            | Bề mặt: 
+            span #{facts.skins.suface}
+          p.info-name
+            | Da có căng: 
+            span #{facts.skins.isStretch}
+          p.info-name
+            | Kích thước lỗ chân lông: 
+            span #{facts.skins.pores}
+          p.info-name
+            | Môi trường làm việc: 
+            span #{facts.skins.work}
+          
+          h3 Tip cho da bạn:
+          p.skin-text
+            | #{facts.skins.tip}
+          h3 Thành phần tốt cho da bạn:
+          ul 
+            each val in facts.skins.goodGradient
+              li= val
+          h3 Thành phần có hại cho da bạn:
+          ul 
+            each val in facts.skins.badGradient
+              li= val
+          h3 Tư vấn về sản phẩm
+          p.info-name
+            span Bạn nên sử dụng các sản phẩm có dạng bào chế #{facts.skins.forms}
+          p.info-name
+            | Kem chống nắng: 
+            span Bạn nên sử dụng kem chống nắng có đặc tính #{facts.skins.sunProtect.type} có chỉ số spf: #{facts.skins.sunProtect.spf} 
+            if (typeof(facts.skins.sunProtect.label) !== 'undefined')
+              span có nhãn #{facts.skins.sunProtect.label}
+          p.info-name
+            | Sản phẩm điều trị: 
+            ul 
+            each val in facts.skins.product
+              li= val
+          if (facts.skins.acne === 'Y')
+            h3 Tư vấn về mụn:
+            p.info-name
+              | Loại mụn bạn gặp phải: 
+              span #{facts.acne.name}
+            img(src="/pic/"+facts.acne.pic, alt="anh", srcset="", width="80", height="80")
+            p.info-name
+              | Mức độ nghiêm trọng: 
+              span #{facts.acne.severity}/75
+            p.info-name
+              | Điều trị: 
+              span #{facts.acne.treatment}
+      if (typeof(facts.body) !== 'undefined')
+        .body
+          h2.info-head tư vấn về dáng người
+            h3 Phân loại dáng người: #{facts.body.type}
+            h3 Bài tập phù hợp
+            p.info-name
+              | #{facts.body.exercise}
+            h3 Dinh dưỡng phù hợp
+            p.info-name
+              | #{facts.body.food}
+            h3 Trang phuc phù hợp
+            p.info-name
+              ul 
+              each val in facts.body.clothes
+                li
+                  span 
+                  | #{val.name}
+                  img(src="/pic/"+val.pic, alt="anh", srcset="",  height="100")
+      if (typeof(facts.face) !== 'undefined')
+        .face
+          h2.info-head tư vấn về khuôn mặt
+            h3 Phân loại khuôn mặt: #{facts.face.type}
+            h3 Kiểu tóc phù hợp
+            p.info-name
+              ul 
+              each val in facts.face.hair
+                li
+                  h5 #{val.name}: 
+                  span #{val.des}: 

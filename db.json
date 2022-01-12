@@ -69,33 +69,474 @@
         "age": "40"
       },
       "skins": {
-        "normalP": 5,
-        "dryP": 95,
-        "oilP": 165,
-        "combineP": 40,
+        "normalP": 140,
+        "dryP": 200,
+        "oilP": 65,
+        "combineP": 115,
         "product": [
           "Niacinamide (5%-10%)",
-          "Niacinamide (>20%)"
+          "Niacinamide (>20%)",
+          "Niacinamide (<5%)"
         ],
         "sunProtect": {
           "spf": "SPF 15 hoặc SPF 30",
-          "type": "Chống nắng hóa học"
+          "type": "Chống nắng vật lý"
         },
-        "balance": "N",
-        "color": "Da sáng bóng",
-        "oilT": "N",
-        "suface": "Da thô ráp",
-        "isStretch": "N",
-        "toner": "Da không đều màu",
-        "pores": "To",
+        "balance": "Y",
+        "color": "Da xỉn màu",
+        "oilT": "Y",
+        "suface": "Da mịn màng",
+        "isStretch": "Y",
+        "toner": "Da đều màu",
+        "pores": "Không nhìn thấy",
         "work": "Trong phòng diều hòa",
         "acne": "Y",
         "deep": "Y",
         "old": "Y",
         "pregnant": "Y",
-        "type": "Da dầu"
+        "type": "Da khô"
       },
       "id": "8c258c92-990d-4a47-8173-b3b3e9e0e90c"
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "34"
+      },
+      "skins": {
+        "normalP": 65,
+        "dryP": 160,
+        "oilP": 35,
+        "combineP": 30,
+        "product": [
+          "Niacinamide (<5%)",
+          "Niacinamide (>20%)"
+        ],
+        "sunProtect": {
+          "spf": "SPF 15 hoặc SPF 30",
+          "type": "Chống nắng vật lý"
+        },
+        "balance": "N",
+        "color": "Da xỉn màu",
+        "oilT": "N",
+        "suface": "Da mịn màng",
+        "isStretch": "N",
+        "toner": "N",
+        "pores": "Không nhìn thấy",
+        "work": "Trong phòng diều hòa",
+        "acne": "N",
+        "deep": "N",
+        "old": "N",
+        "pregnant": "N",
+        "type": "Da khô",
+        "timeCare": "<6",
+        "sweat": "N",
+        "redness": "Nhiều",
+        "parts": "Cánh tay",
+        "painful": "N",
+        "pus": "N",
+        "hard": "Y"
+      },
+      "id": "2a8f21ce-488e-4f11-a33d-e4d419dd7656",
+      "acne": {
+        "redness": "Nhiều",
+        "parts": "Khuôn mặt",
+        "painful": "Y",
+        "pus": "N",
+        "hard": "Y",
+        "color": "Đỏ",
+        "category": "Bỏng rát",
+        "cateParts": "Thông thường",
+        "type": "Viêm"
+      }
+    },
+    {
+      "user": {},
+      "skins": {
+        "normalP": 0,
+        "dryP": 0,
+        "oilP": 0,
+        "combineP": 0,
+        "product": [],
+        "sunProtect": {}
+      },
+      "id": "40fbfbf5-4745-4ab7-ad90-ccea3886b3c6"
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "42"
+      },
+      "skins": {
+        "normalP": 60,
+        "dryP": 110,
+        "oilP": 135,
+        "combineP": 40,
+        "product": [
+          "Retinol",
+          "Niacinamide (<5%)",
+          "Niacinamide (>20%)"
+        ],
+        "sunProtect": {
+          "spf": "SPF 50",
+          "type": "Chống nắng hóa học"
+        },
+        "balance": "N",
+        "color": "Da xỉn màu",
+        "oilT": "N",
+        "suface": "Da mịn màng",
+        "isStretch": "N",
+        "toner": "N",
+        "pores": "Không nhìn thấy",
+        "work": "Ngoài trời",
+        "acne": "Y",
+        "deep": "N",
+        "old": "N",
+        "pregnant": "N",
+        "type": "Da dầu",
+        "timeCare": "<6",
+        "sweat": "N"
+      },
+      "id": "326ce526-50b3-4014-b2e3-7f0b84a8c439",
+      "acne": {
+        "redness": "Nhiều",
+        "parts": "Cánh tay",
+        "painful": "N",
+        "pus": "N",
+        "hard": "Y",
+        "color": "Vàng",
+        "category": "Bỏng rát",
+        "cateParts": "Cực hiếm",
+        "type": "Nang"
+      }
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "34"
+      },
+      "skins": {
+        "normalP": 65,
+        "dryP": 160,
+        "oilP": 35,
+        "combineP": 30,
+        "product": [
+          "Niacinamide (<5%)",
+          "Niacinamide (>20%)"
+        ],
+        "sunProtect": {
+          "spf": "SPF 15 hoặc SPF 30",
+          "type": "Chống nắng vật lý"
+        },
+        "balance": "N",
+        "color": "Da xỉn màu",
+        "oilT": "N",
+        "suface": "Da mịn màng",
+        "isStretch": "N",
+        "toner": "N",
+        "pores": "Không nhìn thấy",
+        "work": "Trong phòng diều hòa",
+        "acne": "N",
+        "deep": "N",
+        "old": "N",
+        "pregnant": "N",
+        "type": "Da khô",
+        "sweat": "Y"
+      },
+      "id": "679bcc77-8ee2-4071-aca4-530b7ef9c3aa",
+      "acne": {
+        "redness": "Trung bình",
+        "parts": "Lưng",
+        "painful": "Y",
+        "pus": "Y",
+        "hard": "N",
+        "color": "Vàng",
+        "noOfLession": "7",
+        "category": "Bỏng rát",
+        "cateParts": "Hiếm",
+        "areaP": 3,
+        "type": "Nang",
+        "name": "Mụn Nang",
+        "typeP": 5,
+        "severity": 24.75,
+        "treatment": "isotretinoin"
+      }
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "34"
+      },
+      "skins": {
+        "normalP": 160,
+        "dryP": 50,
+        "oilP": 180,
+        "combineP": 55,
+        "product": [
+          "Adaplyn(0.1%)",
+          "Retinoic",
+          "Niacinamide (>20%)",
+          "Da bạn hay tiếp xúc nhiều với bụi bẩn bổ sung thêm AHA (Axit mandelic, axit lactic)và  (Axit béo) gia tăng khả năng làm sạch"
+        ],
+        "sunProtect": {
+          "type": "Chống nắng hóa học",
+          "label": "Very water resistant",
+          "spf": "SPF 50"
+        },
+        "balance": "Y",
+        "color": "Da sáng bóng",
+        "oilT": "N",
+        "suface": "Da mịn màng",
+        "isStretch": "N",
+        "toner": "N",
+        "pores": "Nhỏ",
+        "work": "Ngoài trời",
+        "acne": "Y",
+        "deep": "N",
+        "old": "Y",
+        "pregnant": "N",
+        "type": "Da dầu",
+        "timeCare": ">6",
+        "sweat": "Y",
+        "forms": "froam(dạng bọt)",
+        "tip": "Làm sạch hai lần. Vào buổi sáng, bạn có thể sử dụng sữa rửa mặt tạo bọt và tiếp theo là toner có axit glycolic để tẩy tế bào chết trên da, đồng thời làm thông thoáng lỗ chân lông và loại bỏ bụi bẩn. Vào ban đêm, làm sạch và săn chắc da một lần nữa và cân nhắc sử dụng kem dưỡng da ban đêm chứa retinoid để kiểm soát dầu.",
+        "goodGradient": [
+          "Salicylic and buffered glycolic acid: Để hòa tan dầu béo bề mặt nặng hơn và làm sạch sâu lớp biểu bì.",
+          "Oil-free ingredients: Kiểm soát và hạn chế lượng dầu thừa ở trên bề mặt da, làm giảm độ bóng nhờn ở những bạn sở hữu làn da dầu.",
+          "Sodium Hyaluronate: Đây là một thành phần dưỡng ẩm hoạt tính sinh học có thể liên kết độ ẩm gấp 1000 lần trọng lượng của nó đối với da. Nó là một trong những thành phần dưỡng ẩm da được sử dụng phổ biến nhất cho da nhờn",
+          "Sodium PCA: Một chất liên kết nước giúp hấp thụ nước trong da."
+        ],
+        "badGradient": [
+          "Comedogenic products:  Gây bít tắc lỗ chân lông có thể dẫn đến mụn.",
+          "Mineral Oil and Petrolatum: Nó có thể gây tắc lỗ chân lông trên da."
+        ]
+      },
+      "id": "0e764fd8-797c-4add-91d4-c8334a936e95",
+      "acne": {}
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "44"
+      },
+      "skins": {
+        "normalP": 155,
+        "dryP": 90,
+        "oilP": 210,
+        "combineP": 40,
+        "product": [
+          "Retinol",
+          "Niacinamide (5%-10%)",
+          "Niacinamide (>20%)",
+          "Da bạn hay tiếp xúc nhiều với bụi bẩn bổ sung thêm AHA (Axit mandelic, axit lactic)và  (Axit béo) gia tăng khả năng làm sạch"
+        ],
+        "sunProtect": {
+          "type": "Chống nắng hóa học",
+          "label": "Very water resistant",
+          "spf": "SPF 50"
+        },
+        "balance": "Y",
+        "color": "Da sáng bóng",
+        "oilT": "N",
+        "suface": "Da mịn màng",
+        "isStretch": "Y",
+        "toner": "Y",
+        "pores": "Nhỏ",
+        "work": "Ngoài trời",
+        "acne": "Y",
+        "deep": "Y",
+        "old": "N",
+        "pregnant": "N",
+        "type": "Da dầu",
+        "forms": "froam(dạng bọt)",
+        "tip": "Làm sạch hai lần. Vào buổi sáng, bạn có thể sử dụng sữa rửa mặt tạo bọt và tiếp theo là toner có axit glycolic để tẩy tế bào chết trên da, đồng thời làm thông thoáng lỗ chân lông và loại bỏ bụi bẩn. Vào ban đêm, làm sạch và săn chắc da một lần nữa và cân nhắc sử dụng kem dưỡng da ban đêm chứa retinoid để kiểm soát dầu.",
+        "goodGradient": [
+          "Salicylic and buffered glycolic acid: Để hòa tan dầu béo bề mặt nặng hơn và làm sạch sâu lớp biểu bì.",
+          "Oil-free ingredients: Kiểm soát và hạn chế lượng dầu thừa ở trên bề mặt da, làm giảm độ bóng nhờn ở những bạn sở hữu làn da dầu.",
+          "Sodium Hyaluronate: Đây là một thành phần dưỡng ẩm hoạt tính sinh học có thể liên kết độ ẩm gấp 1000 lần trọng lượng của nó đối với da. Nó là một trong những thành phần dưỡng ẩm da được sử dụng phổ biến nhất cho da nhờn",
+          "Sodium PCA: Một chất liên kết nước giúp hấp thụ nước trong da."
+        ],
+        "badGradient": [
+          "Comedogenic products:  Gây bít tắc lỗ chân lông có thể dẫn đến mụn.",
+          "Mineral Oil and Petrolatum: Nó có thể gây tắc lỗ chân lông trên da."
+        ],
+        "timeCare": "<6",
+        "sweat": "Y"
+      },
+      "id": "3b053c78-d1ec-43f8-b862-172cab57e2bd",
+      "acne": {
+        "redness": "Trung bình",
+        "parts": "Ngực",
+        "painful": "Y",
+        "pus": "N",
+        "hard": "Y",
+        "color": "Đỏ",
+        "noOfLession": "40",
+        "category": "Bỏng rát",
+        "cateParts": "Hiếm",
+        "areaP": 2,
+        "type": "Nang",
+        "name": "Mụn bọc u",
+        "typeP": 4,
+        "pic": "nodule.png",
+        "severity": 47.25,
+        "treatment": "isotretinoin"
+      },
+      "body": {
+        "bust": 80,
+        "hip": 61,
+        "waist": 76,
+        "type": "Dáng tam giác ngược",
+        "exercise": "Thực hiện các bài tập Cardio. Cải thiện thân dưới bằng các bài tập gym cho hông nở. Tập luyện săn chắc thân trên.",
+        "food": "Hạn chế đồ ngọt cũng những thực phẩm chứa nhiều tinh bột, để tránh làm tăng lượng đường trong cơ thể, dẫn đến tích tụ mỡ thừa.",
+        "clothes": [
+          {
+            "name": "Áo: Những chiếc áo giúp tạo độ sâu ở phần ngực, giúp vai gọn như: dáng áo hình chữ U, hoặc chữ V, dáng lệch vai đều là những lựa chọn tuyệt vời dành cho dáng tam giác ngược. Tay áo phải làm cho vai thon gọn hơn. Chọn những loại tay áo rộng có độ rủ, hoặc dáng tay áo có đường cắt giúp phần trên nhỏ hơn so với thực tế. Khi phối đồ bạn nên chọn màu áo tối hơn so với màu quần hoặc chân váy, chọn loại áo sơ mi cổ nhỏ, không họa tiết, hoặc họa tiết ít/nhỏ để chuyển sự chú ý tới phần dưới của cơ thể.",
+            "pic": "TG-AO.png"
+          },
+          {
+            "name": "Quần: Dáng quần như baggy, turns up, quần nhiều túi, hoặc túi hộp (combat, Cargo), quần ống lửng, quần rộng ống, quần ống loe, quần harem -> Làm phần thân dưới của bạn trông to hơn",
+            "pic": "TG-Q.png"
+          },
+          {
+            "name": "Chân váy: Những dáng váy xòe, phồng từ phần hông trở xuống đều giúp vòng 3 lớn hơn như dáng váy xòe tròn, dáng váy chữ A, dáng váy xòe (Ba lê), dáng dập ly rủ (bias cut),",
+            "pic": "TG-CV.png"
+          },
+          {
+            "name": "Váy: Những dáng váy mặc đẹp đơn giản là những dáng có đường thẳng phía trên và phồng phía dưới như váy chữ A, váy triết ngực, váy xuông đều là sự lựa chọn của bạn.",
+            "pic": "TG-V.png"
+          }
+        ]
+      },
+      "face": {
+        "foreHeadW": 14,
+        "faceL": 21,
+        "cheekW": 13,
+        "jawLine": 10,
+        "a1": 86,
+        "a2": 84,
+        "a3": 81,
+        "type": "Mặt trái xoan"
+      }
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "34"
+      },
+      "skins": {
+        "normalP": 105,
+        "dryP": 50,
+        "oilP": 180,
+        "combineP": 155,
+        "product": [
+          "Adaplyn(0.1%)",
+          "Niacinamide (5%-10%)",
+          "Niacinamide (>20%)",
+          "Da bạn hay tiếp xúc nhiều với bụi bẩn bổ sung thêm AHA (Axit mandelic, axit lactic)và  (Axit béo) gia tăng khả năng làm sạch"
+        ],
+        "sunProtect": {
+          "type": "Chống nắng hóa học",
+          "label": "Very water resistant",
+          "spf": "SPF 50"
+        },
+        "balance": "Y",
+        "color": "Da sáng bóng",
+        "oilT": "Y",
+        "suface": "Da thô ráp",
+        "isStretch": "N",
+        "toner": "Y",
+        "pores": "Nhỏ",
+        "work": "Ngoài trời",
+        "acne": "Y",
+        "deep": "Y",
+        "old": "N",
+        "pregnant": "N",
+        "type": "Da dầu",
+        "forms": "froam(dạng bọt)",
+        "tip": "Làm sạch hai lần. Vào buổi sáng, bạn có thể sử dụng sữa rửa mặt tạo bọt và tiếp theo là toner có axit glycolic để tẩy tế bào chết trên da, đồng thời làm thông thoáng lỗ chân lông và loại bỏ bụi bẩn. Vào ban đêm, làm sạch và săn chắc da một lần nữa và cân nhắc sử dụng kem dưỡng da ban đêm chứa retinoid để kiểm soát dầu.",
+        "goodGradient": [
+          "Salicylic and buffered glycolic acid: Để hòa tan dầu béo bề mặt nặng hơn và làm sạch sâu lớp biểu bì.",
+          "Oil-free ingredients: Kiểm soát và hạn chế lượng dầu thừa ở trên bề mặt da, làm giảm độ bóng nhờn ở những bạn sở hữu làn da dầu.",
+          "Sodium Hyaluronate: Đây là một thành phần dưỡng ẩm hoạt tính sinh học có thể liên kết độ ẩm gấp 1000 lần trọng lượng của nó đối với da. Nó là một trong những thành phần dưỡng ẩm da được sử dụng phổ biến nhất cho da nhờn",
+          "Sodium PCA: Một chất liên kết nước giúp hấp thụ nước trong da."
+        ],
+        "badGradient": [
+          "Comedogenic products:  Gây bít tắc lỗ chân lông có thể dẫn đến mụn.",
+          "Mineral Oil and Petrolatum: Nó có thể gây tắc lỗ chân lông trên da."
+        ],
+        "timeCare": ">6",
+        "sweat": "Y"
+      },
+      "id": "c7fa332b-8f25-4ccf-adfe-4a771848f5d0",
+      "acne": {
+        "redness": "Trung bình",
+        "parts": "Ngực",
+        "painful": "Y",
+        "pus": "N",
+        "hard": "Y",
+        "color": "Đỏ",
+        "noOfLession": "40",
+        "category": "Bỏng rát",
+        "cateParts": "Hiếm",
+        "areaP": 2,
+        "type": "Nang",
+        "name": "Mụn bọc u",
+        "typeP": 4,
+        "pic": "nodule.png",
+        "severity": 47.25,
+        "treatment": "isotretinoin"
+      },
+      "body": {
+        "bust": 90,
+        "hip": 90,
+        "waist": 60,
+        "type": "Dáng tam giác ngược",
+        "exercise": "Thực hiện các bài tập Cardio. Cải thiện thân dưới bằng các bài tập gym cho hông nở. Tập luyện săn chắc thân trên.",
+        "food": "Hạn chế đồ ngọt cũng những thực phẩm chứa nhiều tinh bột, để tránh làm tăng lượng đường trong cơ thể, dẫn đến tích tụ mỡ thừa.",
+        "clothes": [
+          {
+            "name": "Áo: Những chiếc áo giúp tạo độ sâu ở phần ngực, giúp vai gọn như: dáng áo hình chữ U, hoặc chữ V, dáng lệch vai đều là những lựa chọn tuyệt vời dành cho dáng tam giác ngược. Tay áo phải làm cho vai thon gọn hơn. Chọn những loại tay áo rộng có độ rủ, hoặc dáng tay áo có đường cắt giúp phần trên nhỏ hơn so với thực tế. Khi phối đồ bạn nên chọn màu áo tối hơn so với màu quần hoặc chân váy, chọn loại áo sơ mi cổ nhỏ, không họa tiết, hoặc họa tiết ít/nhỏ để chuyển sự chú ý tới phần dưới của cơ thể.",
+            "pic": "TG-AO.png"
+          },
+          {
+            "name": "Quần: Dáng quần như baggy, turns up, quần nhiều túi, hoặc túi hộp (combat, Cargo), quần ống lửng, quần rộng ống, quần ống loe, quần harem -> Làm phần thân dưới của bạn trông to hơn",
+            "pic": "TG-Q.png"
+          },
+          {
+            "name": "Chân váy: Những dáng váy xòe, phồng từ phần hông trở xuống đều giúp vòng 3 lớn hơn như dáng váy xòe tròn, dáng váy chữ A, dáng váy xòe (Ba lê), dáng dập ly rủ (bias cut),",
+            "pic": "TG-CV.png"
+          },
+          {
+            "name": "Váy: Những dáng váy mặc đẹp đơn giản là những dáng có đường thẳng phía trên và phồng phía dưới như váy chữ A, váy triết ngực, váy xuông đều là sự lựa chọn của bạn.",
+            "pic": "TG-V.png"
+          }
+        ]
+      },
+      "face": {
+        "foreHeadW": 13,
+        "faceL": 21,
+        "cheekW": 16,
+        "jawLine": 13,
+        "a1": 85,
+        "a2": 83,
+        "a3": 82,
+        "type": "Mặt chữ nhật, thuôn dài",
+        "hair": [
+          {
+            "name": "Kiểu tóc ngắn tỉa layer",
+            "des": "Với kiểu tóc này, bạn sẽ được cắt tỉa tóc thành nhiều lớp khác nhau một cách tinh tế để che đi chiều dài của khuôn mặt chữ nhật. Vì thế, nhìn vào đó, bạn sẽ thấy một cấu trúc mặt hài hòa cân xứng hơn. Bạn có thể phá cách hơn với phần tóc bên hàm bằng cách bo cụp vào hoặc ngắn hẳn lên để khuôn mặt thêm nhỏ nhắn và xinh xắn."
+          },
+          {
+            "name": "Kiểu tóc xoăn đuôi gợn sóng",
+            "des": "Phần đuôi tóc gợn sóng tạo ra độ mềm mại kết hợp với chiều dài của tóc vừa phải sẽ thu ngắn sự chênh lệch tỷ lệ dài rộng của khuôn mặt. Nhờ đó, bạn sẽ thấy khuôn mặt của mình trở nên đáng yêu, bầu bình hơn."
+          },
+          {
+            "name": "Tóc dài xoăn wavy",
+            "des": "Các cô gái có mặt chữ nhật và phần hàm rộng thì nên chọn kiểu tóc xoăn wavy nhé. Chúng sẽ hô biến làm cho khuôn mặt được gọn gàng hơn phần gò má, quai hàm và cân xứng với chiều dài rộng của khuôn mặt."
+          }
+        ]
+      }
     }
   ]
 }

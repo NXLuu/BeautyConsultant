@@ -296,5 +296,7 @@ system.rules = [
     
 ];
 
-console.log(system.getPreciseOutput([3, 3, 49]));
+module.exports = system;
+
+
 

@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700");
+
+:root {
+  --primary-c: #2196f3;
+  --secondary-c: #b2d7f5;
+
+  --white: #fdfbfb;
+
+  --text: #082943;
+  --bg: var(--primary-c);
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background: url(../pic/bg.jfif);
+  display: flex;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-attachment: fixed;
+
+}
+
+.alert-danger .alert-link {
+  color: #6a1a21;
+}
+
+.alert-link {
+  font-weight: 700;
+}
+
+.alert-danger {
+  color: #842029;
+  background-color: #f8d7da;
+  border-color: #f5c2c7;
+}
+
+.alert {
+  position: relative;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 50px;
+  margin: 0;
+}
+
+li {
+  display: block;
+  position: relative;
+  padding: 20px 0px;
+}
+
+h2 {
+  margin: 10px 0;
+  font-weight: 900;
+  font-family: "Nunito", sans-serif;
+}
+
+/* Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.card {
+  display: flex;
+  flex-direction: column;
+  background: var(--white);
+  width: 900px;
+  padding: 20px 25px;
+  border-radius: 20px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.13);
+  /* max-height: 200px; */
+  height: auto;
+  margin-top: 10px;
+}
+
+.card:first-child {
+  margin-top: 80px;
+}
+
+/* Radio Button
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input[type="radio"] {
+  position: absolute;
+  visibility: hidden;
+}
+
+label {
+  cursor: pointer;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+}
+
+.check {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border-radius: 50%;
+  transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+/* Reset */
+input.one~.check {
+  transform: translate(-50px, -25px);
+  background: var(--secondary-c);
+}
+
+input.two~.check {
+  transform: translate(-50px, -83px);
+  background: var(--primary-c);
+  box-shadow: 0 6px 12px rgba(33, 150, 243, 0.35);
+}
+
+/* Radio Input #1 */
+input.one:checked~.check {
+  transform: translate(-50px, 33px);
+}
+
+/* Radio Input #2  */
+input.two:checked~.check {
+  transform: translate(-50px, -25px);
+}
+
+.card-select {
+  padding: 10px;
+  font-weight: 400;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  outline: none;
+  border-color: #40a0f0;
+}
+
+.submit-btn {
+  min-width: 100px;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #7d695e;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  color: var(--white);
+  position: relative;
+  left: 85%;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+}
+
+.submit-btn:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+  position: absolute;
+  font-family: "Nunito", sans-serif;
+}
+
+.box {
+  width: 300px;
+  margin: 25px 0;
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+
+.box label {
+  font-weight: 400;
+  font-weight: 24px;
+  color: #4D4D4D;
+  position: absolute;
+  z-index: 10;
+  padding-left: 50px;
+  cursor: pointer;
+}
+
+.box input {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+.box input:checked~.check {
+  border-color: #40a0f0;
+  box-shadow: 0px 0px 0px 15px #40a0f0 inset;
+}
+
+.box input:checked~.check::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.box .check {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 100px;
+  background-color: #FFF;
+  border: 2px solid #40a0f0;
+  box-shadow: 0px 0px 0px 0px #40a0f0 inset;
+  transition: all 0.15s cubic-bezier(0, 1.05, 0.72, 1.07);
+}
+
+.box .check::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 4;
+  position: absolute;
+  transform: scale(0);
+  background-size: 50%;
+  background-image: url("https://s6.picofile.com/d/8392306668/bacc888c-bed7-41a9-bf24-f6ff0718f471/checkmark.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  transition-delay: 0.2s !important;
+  transition: all 0.25s cubic-bezier(0, 1.05, 0.72, 1.07);
+}

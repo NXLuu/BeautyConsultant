@@ -1,6 +1,8 @@
 const skinRules = require('../controllers/skin.rule');
+const Question = require('../model/Question');
 const db = require('../db.js');
 const { Rools, Rule } = require('rools');
+let listQues = require('../model/ListQues');
 let user = require('../function/user.js');
 class SkinController {
     constructor() {
@@ -12,13 +14,16 @@ class SkinController {
         const facts = {
             user: {
                 name: 'frank',
+                age: 24,
                 stars: 347,
             },
-            skin: {
+            skins: {
                 normalP: 0,
                 dryP: 0,
                 oilP: 0,
-                conbineP: 0,
+                combineP: 0,
+                product: [],
+                sunProtect: {}
             },
         };
 
@@ -27,10 +32,18 @@ class SkinController {
 
     async index(req, res, next) {
         // let 
-        let facts = user.getFacts(req.cookies.id);
+        // let facts = user.getFacts(req.cookies.id);
+        let facts = await this.start();
+        let arrayQues = [];
 
-        res.render('skin/index', {
-            facts: facts,
+        for (let ele of listQues) {
+            if (ele.checkCondition(facts))
+                arrayQues.push(ele);
+        }
+        
+        res.render('skin/index2', {
+            questions: arrayQues,
+            action: '/skin/skin1'
         });
     }
 
@@ -39,14 +52,12 @@ class SkinController {
         let id = req.cookies.id;
         const facts = user.getFacts(id);
 
-        facts.skins = {
-            normalP: 0,
-            dryP: 0,
-            oilP: 0,
-            combineP: 0,
-            product: [],
-            sunProtect: {}
-        };
+        facts.skins.normalP = 0;
+        facts.skins.dryP = 0;
+        facts.skins.oilP = 0;
+        facts.skins.combineP = 0;
+        facts.skins.product = [];
+        facts.skins.sunProtect = {};
 
         for (let attr in req.body) {
             facts.skins[attr] = req.body[attr];
@@ -58,12 +69,32 @@ class SkinController {
         await rools.evaluate(facts);
 
         console.log(facts);
-        
+
         user.update(id, facts);
 
-        res.render('skin/index', {
-            facts: facts,
-        });
+        let arrayQues = [];
+
+        for (let ele of listQues) {
+            if (ele.checkCondition(facts))
+                arrayQues.push(ele);
+        }
+
+
+        console.log(arrayQues);
+
+        if (arrayQues.length > 0) {
+            res.render('skin/index2', {
+                questions: arrayQues
+            });
+        }
+        else {
+            if (facts.skins.acne === "Y") {
+                res.redirect('/skin/acne');
+            } else {
+                res.redirect('/result');
+            }
+        }
+            
     }
 }
 
