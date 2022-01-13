@@ -111,7 +111,8 @@ skinRules[14] = new Rule({
     when: [
         (facts) => facts.skins.normalP >= facts.skins.dryP,
         (facts) => facts.skins.normalP >= facts.skins.oilP,
-        (facts) => facts.skins.normalP >= facts.skins.combineP
+        (facts) => facts.skins.normalP >= facts.skins.combineP,
+        (facts) => facts.skins.normalP >= 100
     ],
     then: (facts) => {
         facts.skins.type = "Da thường";
@@ -123,7 +124,8 @@ skinRules[15] = new Rule({
     when: [
         (facts) => facts.skins.dryP >= facts.skins.normalP,
         (facts) => facts.skins.dryP >= facts.skins.oilP,
-        (facts) => facts.skins.dryP >= facts.skins.combineP
+        (facts) => facts.skins.dryP >= facts.skins.combineP,
+        (facts) => facts.skins.dryP >= 100
     ],
     then: (facts) => {
         facts.skins.type = "Da khô";
@@ -135,7 +137,8 @@ skinRules[16] = new Rule({
     when: [
         (facts) => facts.skins.oilP >= facts.skins.dryP,
         (facts) => facts.skins.oilP >= facts.skins.normalP,
-        (facts) => facts.skins.oilP >= facts.skins.combineP
+        (facts) => facts.skins.oilP >= facts.skins.combineP,
+        (facts) => facts.skins.oilP >= 100
     ],
     then: (facts) => {
         facts.skins.type = "Da dầu";
@@ -147,7 +150,8 @@ skinRules[17] = new Rule({
     when: [
         (facts) => facts.skins.combineP >= facts.skins.normalP,
         (facts) => facts.skins.combineP >= facts.skins.oilP,
-        (facts) => facts.skins.combineP >= facts.skins.dryP
+        (facts) => facts.skins.combineP >= facts.skins.dryP,
+        (facts) => facts.skins.combineP >= 100
     ],
     then: (facts) => {
         facts.skins.type = "Da hỗn hợp";
@@ -386,7 +390,7 @@ skinRules[38] = new Rule({
     ],
     then: (facts) => {
         facts.skins.sunProtect.label = "Very water resistant";
-            facts.skins.product.push('Da bạn hay tiếp xúc nhiều với bụi bẩn bổ sung thêm AHA (Axit mandelic, axit lactic)và  (Axit béo) gia tăng khả năng làm sạch');
+        facts.skins.product.push('Da bạn hay tiếp xúc nhiều với bụi bẩn bổ sung thêm AHA (Axit mandelic, axit lactic)và  (Axit béo) gia tăng khả năng làm sạch');
     },
 });
 

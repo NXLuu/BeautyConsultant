@@ -27,10 +27,7 @@ class RuleSet {
     const walked = new Set(); // cycle check
     const whens = new Set();
     const walker = (node) => {
-      if (walked.has(node)) return; // cycle
-      walked.add(node);
       node.when.forEach((w) => { whens.add(w); });
-      node.extend.forEach((r) => { walker(r); }); // recursion
     };
     walker(rule);
     // premises
@@ -50,16 +47,7 @@ class RuleSet {
       action.add(premise); // action ->> premises
       premise.add(action); // premise ->> actions
     });
-    // activation group
-    const { activationGroup } = rule;
-    if (activationGroup) {
-      let group = this.actionsByActivationGroup[activationGroup];
-      if (!group) {
-        group = [];
-        this.actionsByActivationGroup[activationGroup] = group;
-      }
-      group.push(action);
-    }
+    
   }
 }
 

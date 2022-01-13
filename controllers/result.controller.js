@@ -10,13 +10,25 @@ class AcneController {
         
     }
 
-    async index(req, res, next) {
+    index(req, res, next) {
         // let 
         let facts = user.getFacts(req.cookies.id);
+
+        console.log(facts);
 
         res.render('res', {
             facts: facts
         });
+    }
+
+    reset(req, res, next) {
+        let facts = user.getFacts(req.cookies.id);
+
+        facts.skins = {};
+        facts.face = {};
+        facts.body = {};
+
+        res.redirect('/cate');
     }
 
     async post(req, res, next) {

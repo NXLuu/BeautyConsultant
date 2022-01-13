@@ -17,7 +17,7 @@ html(lang='en')
           | Tuổi: 
           span #{facts.user.age}
        
-      if (typeof(facts.skins) !== 'undefined')
+      if (typeof(facts.skins.type) !== 'undefined')
         .skin
           h2.info-head tư vấn về da
           h3 Thông tin đã nhập
@@ -83,7 +83,7 @@ html(lang='en')
         .btn
           a(href='/skin')
             button.btn-btn Tư vấn da
-      if (typeof(facts.body) !== 'undefined')
+      if (typeof(facts.body.type) !== 'undefined')
         .body
           h2.info-head tư vấn về dáng người
             h3 Phân loại dáng người: #{facts.body.type}
@@ -105,7 +105,7 @@ html(lang='en')
         .btn
             a(href='/body')
               button.btn-btn Tư vấn dáng người
-      if (typeof(facts.face) !== 'undefined')
+      if (typeof(facts.face.type) !== 'undefined')
         .face
           h2.info-head tư vấn về khuôn mặt
             h3 Phân loại khuôn mặt: #{facts.face.type}
@@ -120,3 +120,6 @@ html(lang='en')
         .btn
             a(href='/face')
               button.btn-btn Tư vấn khuôn mặt
+      .btn
+            a(href='/result/reset')
+              button.btn-btn reset

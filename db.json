@@ -237,6 +237,730 @@
           }
         ]
       }
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "34"
+      },
+      "id": "b10353b0-dae4-47d0-a503-23b20bf1b832",
+      "skins": {
+        "normalP": 65,
+        "dryP": 160,
+        "oilP": 35,
+        "combineP": 30,
+        "product": [
+          "Niacinamide (<5%)",
+          "Niacinamide (>20%)"
+        ],
+        "sunProtect": {
+          "spf": "SPF 15 hoặc SPF 30",
+          "type": "Chống nắng vật lý"
+        },
+        "balance": "N",
+        "color": "Da xỉn màu",
+        "oilT": "N",
+        "suface": "Da mịn màng",
+        "isStretch": "N",
+        "toner": "N",
+        "pores": "Không nhìn thấy",
+        "work": "Trong phòng diều hòa",
+        "acne": "N",
+        "deep": "N",
+        "old": "N",
+        "pregnant": "N",
+        "type": "Da khô",
+        "forms": "cream có oil",
+        "tip": "Tránh rửa mặt quá nhiều do nó có thể dẫn đến việc khô da. Vì thế buổi sáng không cần phải rửa mặt nếu đã làm nó vào buổi tố. serum chống oxy hóa, kem dưỡng mắt và kem dưỡng ẩm có chỉ số SPF 30 hoặc cao hơn. Vào cuối ngày, hãy sử dụng kem hoặc chất tẩy rửa dạng dầu không làm mất đi lớp dầu tự nhiên của da và thoa kem dưỡng ẩm ban đêm.",
+        "goodGradient": [
+          "Hyaluronic acid: có thể hấp thụ gấp 1.000 lần trọng lượng của nó trong nước, làm cho nó trở thành một thành phần chính khi chống lại làn da khô",
+          "Glycerine: chất giữ ẩm hiệu quả nhất",
+          "Squalane: Hoạt động tương tự bã nhờn, giúp da không bị mất nước trong giấc ngủ."
+        ],
+        "badGradient": [
+          "Denatured alcohols: Chất làm se da.",
+          "Fragrances: Nước hoa là chất gây kích ứng da phổ biến và nổi tiếng là nguyên nhân hàng đầu gây dị ứng da. Mặc dù không phải là vấn đề đối với tất cả mọi người, nhưng da khô sẽ khiến bạn dễ bị kích ứng hơn",
+          "Salicylic Acid:  Khi sử dụng cho da khô, nó có thể dẫn đến mẩn đỏ, kích ứng và viêm do thiếu dầu."
+        ]
+      }
+    },
+    {
+      "user": {
+        "name": "hibg",
+        "age": "3455"
+      },
+      "id": "43a2420d-9f99-49c4-a66d-04ed06affe2b"
+    },
+    {
+      "user": {
+        "name": "hibg",
+        "age": "3455"
+      },
+      "id": "1e11e999-6526-446a-bba5-ca5d514116f4"
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "42"
+      },
+      "id": "d34a70ac-73dd-4f8d-aa3d-c9f853d4b720"
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "424"
+      },
+      "id": "2428757e-3b2e-457b-a774-c7881fe0805e"
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "45"
+      },
+      "id": "3be17394-22f4-4956-abc7-635dc4a12c30"
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "119"
+      },
+      "id": "06942d73-29c0-4b68-aacd-068b89841c4c",
+      "skins": {
+        "normalP": 5,
+        "dryP": 20,
+        "oilP": 60,
+        "combineP": 115,
+        "product": [
+          "Niacinamide (>20%)"
+        ],
+        "sunProtect": {
+          "type": "Chống nắng hóa học"
+        },
+        "color": "Bỏ qua",
+        "suface": "Bỏ qua",
+        "pores": "Bỏ qua",
+        "work": "Bỏ qua",
+        "type": "Da hỗn hợp",
+        "forms": "sử dụng 2 sản phẩm cho 2 vùng da mặt khác nhau: froam(dạng bọt) cho vùng da dầu, cream có oil cho vùng da khô ",
+        "tip": "Chìa khóa để chăm sóc da hỗn hợp đó là tạo sự cân bằng trên da, bạn hãy tìm cách cung cấp độ ẩm cho khu vực da khô, mà không làm tăng độ bóng dầu ở những khu vực da khác. Sử dụng những loại kem dưỡng ẩm khác nhau cho những vùng da mặt khác nhau. Sữa rửa mặt dạng kem",
+        "goodGradient": [
+          "Hyaluronic acid: có thể hấp thụ gấp 1.000 lần trọng lượng của nó trong nước cho vùng da khô",
+          "Oil-free ingredients: Kiểm soát và hạn chế lượng dầu thừa ở trên bề mặt da, làm giảm độ bóng nhờn cho vùng da dầu",
+          "Sodium PCA: Một chất liên kết nước giúp hấp thụ nước trong da. cho vùng da dầu"
+        ],
+        "badGradient": [
+          "Fragrances: Nước hoa là chất gây kích ứng da phổ biến và nổi tiếng là nguyên nhân hàng đầu gây dị ứng da. Mặc dù không phải là vấn đề đối với tất cả mọi người, nhưng da khô sẽ khiến bạn dễ bị kích ứng hơn",
+          "SD Alcohol 40, Denatured Alcohol, Ethanol and Isopropyl Alcohol: Có thể làm khô da.",
+          "Glycolic Acid: Công dụng của nó trong việc kiểm soát dầu, nó không được khuyến khích cho những người có làn da khô.",
+          "Isopropyl Myristate and Isopropyl Palmitate.: Nó có thể khuyến khích các lỗ chân lông bị tắc."
+        ],
+        "oilT": "Y",
+        "old": "Y"
+      }
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "34"
+      },
+      "id": "954b9c3f-599b-44e1-90fb-d163fdeca660",
+      "skins": {
+        "normalP": 10,
+        "dryP": 30,
+        "oilP": 30,
+        "combineP": 30,
+        "product": [
+          "Niacinamide (>20%)"
+        ],
+        "sunProtect": {
+          "type": "Chống nắng hóa học"
+        },
+        "type": "Da hỗn hợp",
+        "forms": "sử dụng 2 sản phẩm cho 2 vùng da mặt khác nhau: froam(dạng bọt) cho vùng da dầu, cream có oil cho vùng da khô ",
+        "tip": "Chìa khóa để chăm sóc da hỗn hợp đó là tạo sự cân bằng trên da, bạn hãy tìm cách cung cấp độ ẩm cho khu vực da khô, mà không làm tăng độ bóng dầu ở những khu vực da khác. Sử dụng những loại kem dưỡng ẩm khác nhau cho những vùng da mặt khác nhau. Sữa rửa mặt dạng kem",
+        "goodGradient": [
+          "Hyaluronic acid: có thể hấp thụ gấp 1.000 lần trọng lượng của nó trong nước cho vùng da khô",
+          "Oil-free ingredients: Kiểm soát và hạn chế lượng dầu thừa ở trên bề mặt da, làm giảm độ bóng nhờn cho vùng da dầu",
+          "Sodium PCA: Một chất liên kết nước giúp hấp thụ nước trong da. cho vùng da dầu"
+        ],
+        "badGradient": [
+          "Fragrances: Nước hoa là chất gây kích ứng da phổ biến và nổi tiếng là nguyên nhân hàng đầu gây dị ứng da. Mặc dù không phải là vấn đề đối với tất cả mọi người, nhưng da khô sẽ khiến bạn dễ bị kích ứng hơn",
+          "SD Alcohol 40, Denatured Alcohol, Ethanol and Isopropyl Alcohol: Có thể làm khô da.",
+          "Glycolic Acid: Công dụng của nó trong việc kiểm soát dầu, nó không được khuyến khích cho những người có làn da khô.",
+          "Isopropyl Myristate and Isopropyl Palmitate.: Nó có thể khuyến khích các lỗ chân lông bị tắc."
+        ]
+      }
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "34"
+      },
+      "id": "8d3891ca-8fdc-42e7-8c45-f8ddfa677e5f",
+      "skins": {
+        "normalP": 10,
+        "dryP": 30,
+        "oilP": 30,
+        "combineP": 30,
+        "product": [
+          "Niacinamide (>20%)"
+        ],
+        "sunProtect": {}
+      },
+      "body": {
+        "bust": 0,
+        "hip": 0,
+        "waist": 0
+      }
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "34"
+      },
+      "skins": {
+        "normalP": 0,
+        "dryP": 0,
+        "oilP": 0,
+        "combineP": 0,
+        "product": [],
+        "sunProtect": {}
+      },
+      "face": {},
+      "body": {},
+      "id": "a4c87420-3270-419c-9f2b-3b85b06035d8",
+      "acne": {
+        "redness": "Trung bình",
+        "parts": "Ngực",
+        "painful": "Y",
+        "pus": "N",
+        "hard": "Y",
+        "color": "Đỏ",
+        "noOfLession": "15",
+        "category": "Bỏng rát",
+        "cateParts": "Hiếm",
+        "areaP": 2,
+        "type": "Nang",
+        "name": "Mụn bọc u",
+        "typeP": 4,
+        "pic": "nodule.png",
+        "severity": 29.25,
+        "treatment": "isotretinoin"
+      }
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "34"
+      },
+      "skins": {
+        "normalP": 55,
+        "dryP": 30,
+        "oilP": 30,
+        "combineP": 30,
+        "product": [
+          "Niacinamide (>20%)"
+        ],
+        "sunProtect": {},
+        "balance": "Y"
+      },
+      "face": {},
+      "body": {
+        "bust": 20,
+        "hip": 90,
+        "waist": 90,
+        "type": "Dáng quả lê",
+        "exercise": "Tập trung vào các bài tập làm thon gọn phần thân dưới. các bài tập gia tăng sức mạnh cho tay, các bài tập phức hợp phối hợp với những động tác tác động khối cơ xung quanh",
+        "food": "Các loại thịt, cá, trứng, hay các sản phẩm từ sữa và thực phẩm có hàm lượng protein cao. Các loại trái cây như dưa hấu, dứa đều rất tốt cho dáng người vì nó sẽ làm sạch cơ thể khỏi các độc tố dư thừa tích tụ, làm chậm quá trình trao đổi chất. Cần tránh ăn những loại thực phẩm có hàm lượng natri cao, đồng thời giảm lượng muối tiêu thụ hàng ngày và tránh các thực phẩm tinh chế như bánh mì, mì, gạo...",
+        "clothes": [
+          {
+            "name": "Áo: Đường viền cổ áo nên rộng. Cổ áo lớn, đường viền ren và đường bèo nhún đều tạo thêm khối lượng cho phần trên cơ thể của bạn, do đó cân bằng với phần hông rộng hơn. Tay áo nếu chọn tay áo ngắn thì hãy chọn tay áo rộng và tông dáng. Tuy nhiên tay áo dài thì ống nên nhỏ.  Những chiếc áo vừa vặn và ôm sát giúp làm nổi bật vòng eo. Áo không được vượt quá hông vì như vậy sẽ khiến hông có vẻ rộng hơn. Chọn những chiếc áo được cắt cúp ở eo hoặc những chiếc áo có phần cuối ở đường ngang hông. Thắt áo sơ mi vào đáy quần giúp làm nổi bật thân hình có đường cong của bạn.",
+            "pic": "QL-AO.png"
+          },
+          {
+            "name": "Quần: Thu nhỏ phần dưới và giảm bớt phần hông. Chọn màu tối hơn, đường kẻ rõ ràng và đường khâu đơn giản để tránh thu hút sự chú ý vào phần dưới cơ thể. Quần xuông ống loe, quần xuông ống đứng",
+            "pic": "QL-Q.png"
+          },
+          {
+            "name": "Chân váy: chân váy chữ A",
+            "pic": ""
+          },
+          {
+            "name": "Váy: những chiếc váy có phom dáng rộng hơn ở phần dưới sẽ hiệu quả hơn trong việc cân bằng phần hôn",
+            "pic": "Ql-V.png"
+          }
+        ]
+      },
+      "id": "6d50083b-7bf9-4731-b96b-fe72c729526a"
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "34"
+      },
+      "skins": {
+        "normalP": 80,
+        "dryP": 100,
+        "oilP": 60,
+        "combineP": 180,
+        "product": [
+          "Niacinamide (5%-10%)",
+          "Niacinamide (>20%)"
+        ],
+        "sunProtect": {
+          "spf": "SPF 15 hoặc SPF 30",
+          "type": "Chống nắng hóa học"
+        },
+        "balance": "Y",
+        "color": "Da xỉn màu",
+        "oilT": "Y",
+        "suface": "Da thô ráp",
+        "isStretch": "Y",
+        "toner": "Y",
+        "pores": "To",
+        "work": "Trong phòng bình thường",
+        "acne": "Y",
+        "deep": "Y",
+        "old": "Y",
+        "pregnant": "Y",
+        "type": "Da hỗn hợp",
+        "forms": "sử dụng 2 sản phẩm cho 2 vùng da mặt khác nhau: froam(dạng bọt) cho vùng da dầu, cream có oil cho vùng da khô ",
+        "tip": "Chìa khóa để chăm sóc da hỗn hợp đó là tạo sự cân bằng trên da, bạn hãy tìm cách cung cấp độ ẩm cho khu vực da khô, mà không làm tăng độ bóng dầu ở những khu vực da khác. Sử dụng những loại kem dưỡng ẩm khác nhau cho những vùng da mặt khác nhau. Sữa rửa mặt dạng kem",
+        "goodGradient": [
+          "Hyaluronic acid: có thể hấp thụ gấp 1.000 lần trọng lượng của nó trong nước cho vùng da khô",
+          "Oil-free ingredients: Kiểm soát và hạn chế lượng dầu thừa ở trên bề mặt da, làm giảm độ bóng nhờn cho vùng da dầu",
+          "Sodium PCA: Một chất liên kết nước giúp hấp thụ nước trong da. cho vùng da dầu"
+        ],
+        "badGradient": [
+          "Fragrances: Nước hoa là chất gây kích ứng da phổ biến và nổi tiếng là nguyên nhân hàng đầu gây dị ứng da. Mặc dù không phải là vấn đề đối với tất cả mọi người, nhưng da khô sẽ khiến bạn dễ bị kích ứng hơn",
+          "SD Alcohol 40, Denatured Alcohol, Ethanol and Isopropyl Alcohol: Có thể làm khô da.",
+          "Glycolic Acid: Công dụng của nó trong việc kiểm soát dầu, nó không được khuyến khích cho những người có làn da khô.",
+          "Isopropyl Myristate and Isopropyl Palmitate.: Nó có thể khuyến khích các lỗ chân lông bị tắc."
+        ]
+      },
+      "face": {
+        "foreHeadW": 15,
+        "faceL": 31,
+        "cheekW": 15,
+        "jawLine": 13,
+        "a1": 86,
+        "a2": 85,
+        "a3": 84,
+        "type": "Mặt chữ nhật, thuôn dài",
+        "hair": [
+          {
+            "name": "Kiểu tóc ngắn tỉa layer",
+            "des": "Với kiểu tóc này, bạn sẽ được cắt tỉa tóc thành nhiều lớp khác nhau một cách tinh tế để che đi chiều dài của khuôn mặt chữ nhật. Vì thế, nhìn vào đó, bạn sẽ thấy một cấu trúc mặt hài hòa cân xứng hơn. Bạn có thể phá cách hơn với phần tóc bên hàm bằng cách bo cụp vào hoặc ngắn hẳn lên để khuôn mặt thêm nhỏ nhắn và xinh xắn."
+          },
+          {
+            "name": "Kiểu tóc xoăn đuôi gợn sóng",
+            "des": "Phần đuôi tóc gợn sóng tạo ra độ mềm mại kết hợp với chiều dài của tóc vừa phải sẽ thu ngắn sự chênh lệch tỷ lệ dài rộng của khuôn mặt. Nhờ đó, bạn sẽ thấy khuôn mặt của mình trở nên đáng yêu, bầu bình hơn."
+          },
+          {
+            "name": "Tóc dài xoăn wavy",
+            "des": "Các cô gái có mặt chữ nhật và phần hàm rộng thì nên chọn kiểu tóc xoăn wavy nhé. Chúng sẽ hô biến làm cho khuôn mặt được gọn gàng hơn phần gò má, quai hàm và cân xứng với chiều dài rộng của khuôn mặt."
+          }
+        ]
+      },
+      "body": {
+        "bust": 45,
+        "hip": 100,
+        "waist": 45,
+        "type": "Dáng quả lê",
+        "exercise": "Tập trung vào các bài tập làm thon gọn phần thân dưới. các bài tập gia tăng sức mạnh cho tay, các bài tập phức hợp phối hợp với những động tác tác động khối cơ xung quanh",
+        "food": "Các loại thịt, cá, trứng, hay các sản phẩm từ sữa và thực phẩm có hàm lượng protein cao. Các loại trái cây như dưa hấu, dứa đều rất tốt cho dáng người vì nó sẽ làm sạch cơ thể khỏi các độc tố dư thừa tích tụ, làm chậm quá trình trao đổi chất. Cần tránh ăn những loại thực phẩm có hàm lượng natri cao, đồng thời giảm lượng muối tiêu thụ hàng ngày và tránh các thực phẩm tinh chế như bánh mì, mì, gạo...",
+        "clothes": [
+          {
+            "name": "Áo: Đường viền cổ áo nên rộng. Cổ áo lớn, đường viền ren và đường bèo nhún đều tạo thêm khối lượng cho phần trên cơ thể của bạn, do đó cân bằng với phần hông rộng hơn. Tay áo nếu chọn tay áo ngắn thì hãy chọn tay áo rộng và tông dáng. Tuy nhiên tay áo dài thì ống nên nhỏ.  Những chiếc áo vừa vặn và ôm sát giúp làm nổi bật vòng eo. Áo không được vượt quá hông vì như vậy sẽ khiến hông có vẻ rộng hơn. Chọn những chiếc áo được cắt cúp ở eo hoặc những chiếc áo có phần cuối ở đường ngang hông. Thắt áo sơ mi vào đáy quần giúp làm nổi bật thân hình có đường cong của bạn.",
+            "pic": "QL-AO.png"
+          },
+          {
+            "name": "Quần: Thu nhỏ phần dưới và giảm bớt phần hông. Chọn màu tối hơn, đường kẻ rõ ràng và đường khâu đơn giản để tránh thu hút sự chú ý vào phần dưới cơ thể. Quần xuông ống loe, quần xuông ống đứng",
+            "pic": "QL-Q.png"
+          },
+          {
+            "name": "Chân váy: chân váy chữ A",
+            "pic": ""
+          },
+          {
+            "name": "Váy: những chiếc váy có phom dáng rộng hơn ở phần dưới sẽ hiệu quả hơn trong việc cân bằng phần hôn",
+            "pic": "Ql-V.png"
+          }
+        ]
+      },
+      "id": "4778c7fc-d28b-4199-9767-dc456ca830cb",
+      "acne": {
+        "redness": "Trung bình",
+        "parts": "Ngực",
+        "painful": "Y",
+        "pus": "N",
+        "hard": "Y",
+        "color": "Đỏ",
+        "noOfLession": "15",
+        "category": "Bỏng rát",
+        "cateParts": "Hiếm",
+        "areaP": 2,
+        "type": "Nang",
+        "name": "Mụn bọc u",
+        "typeP": 4,
+        "pic": "nodule.png",
+        "severity": 29.25,
+        "treatment": "isotretinoin"
+      }
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "34"
+      },
+      "skins": {
+        "normalP": 110,
+        "dryP": 120,
+        "oilP": 130,
+        "combineP": 180,
+        "product": [
+          "Retinol",
+          "Retinoic",
+          "Niacinamide (5%-10%)",
+          "Niacinamide (>20%)",
+          "Da bạn hay tiếp xúc nhiều với bụi bẩn bổ sung thêm AHA (Axit mandelic, axit lactic)và  (Axit béo) gia tăng khả năng làm sạch"
+        ],
+        "sunProtect": {
+          "type": "Chống nắng hóa học",
+          "label": "Very water resistant",
+          "spf": "SPF 50"
+        },
+        "balance": "Y",
+        "color": "Da xỉn màu",
+        "oilT": "Y",
+        "suface": "Da mịn màng",
+        "isStretch": "Y",
+        "toner": "Y",
+        "pores": "To",
+        "work": "Ngoài trời",
+        "acne": "Y",
+        "old": "Y",
+        "pregnant": "N",
+        "type": "Da hỗn hợp",
+        "forms": "sử dụng 2 sản phẩm cho 2 vùng da mặt khác nhau: froam(dạng bọt) cho vùng da dầu, cream có oil cho vùng da khô ",
+        "tip": "Chìa khóa để chăm sóc da hỗn hợp đó là tạo sự cân bằng trên da, bạn hãy tìm cách cung cấp độ ẩm cho khu vực da khô, mà không làm tăng độ bóng dầu ở những khu vực da khác. Sử dụng những loại kem dưỡng ẩm khác nhau cho những vùng da mặt khác nhau. Sữa rửa mặt dạng kem",
+        "goodGradient": [
+          "Hyaluronic acid: có thể hấp thụ gấp 1.000 lần trọng lượng của nó trong nước cho vùng da khô",
+          "Oil-free ingredients: Kiểm soát và hạn chế lượng dầu thừa ở trên bề mặt da, làm giảm độ bóng nhờn cho vùng da dầu",
+          "Sodium PCA: Một chất liên kết nước giúp hấp thụ nước trong da. cho vùng da dầu"
+        ],
+        "badGradient": [
+          "Fragrances: Nước hoa là chất gây kích ứng da phổ biến và nổi tiếng là nguyên nhân hàng đầu gây dị ứng da. Mặc dù không phải là vấn đề đối với tất cả mọi người, nhưng da khô sẽ khiến bạn dễ bị kích ứng hơn",
+          "SD Alcohol 40, Denatured Alcohol, Ethanol and Isopropyl Alcohol: Có thể làm khô da.",
+          "Glycolic Acid: Công dụng của nó trong việc kiểm soát dầu, nó không được khuyến khích cho những người có làn da khô.",
+          "Isopropyl Myristate and Isopropyl Palmitate.: Nó có thể khuyến khích các lỗ chân lông bị tắc."
+        ],
+        "deep": "Y",
+        "timeCare": "<6",
+        "sweat": "Y"
+      },
+      "face": {},
+      "body": {},
+      "id": "e51657e6-19b2-4d1b-8061-d4787b433422",
+      "acne": {
+        "redness": "Trung bình",
+        "parts": "Ngực",
+        "painful": "Y",
+        "pus": "N",
+        "hard": "Y",
+        "color": "Đỏ",
+        "noOfLession": "27",
+        "category": "Bỏng rát",
+        "cateParts": "Hiếm",
+        "areaP": 2,
+        "type": "Nang",
+        "name": "Mụn bọc u",
+        "typeP": 4,
+        "pic": "nodule.png",
+        "severity": 54.75,
+        "treatment": "isotretinoin"
+      }
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "34"
+      },
+      "skins": {
+        "normalP": 130,
+        "dryP": 80,
+        "oilP": 110,
+        "combineP": 155,
+        "product": [
+          "Retinol",
+          "Niacinamide (5%-10%)",
+          "Niacinamide (>20%)"
+        ],
+        "sunProtect": {
+          "spf": "SPF 15 hoặc SPF 30",
+          "type": "Chống nắng hóa học"
+        },
+        "balance": "Y",
+        "color": "Da sáng bóng",
+        "suface": "Da thô ráp",
+        "isStretch": "Y",
+        "toner": "N",
+        "pores": "Nhỏ",
+        "work": "Trong phòng bình thường",
+        "acne": "Y",
+        "deep": "Y",
+        "old": "N",
+        "pregnant": "N",
+        "type": "Da hỗn hợp",
+        "forms": "sử dụng 2 sản phẩm cho 2 vùng da mặt khác nhau: froam(dạng bọt) cho vùng da dầu, cream có oil cho vùng da khô ",
+        "tip": "Chìa khóa để chăm sóc da hỗn hợp đó là tạo sự cân bằng trên da, bạn hãy tìm cách cung cấp độ ẩm cho khu vực da khô, mà không làm tăng độ bóng dầu ở những khu vực da khác. Sử dụng những loại kem dưỡng ẩm khác nhau cho những vùng da mặt khác nhau. Sữa rửa mặt dạng kem",
+        "goodGradient": [
+          "Hyaluronic acid: có thể hấp thụ gấp 1.000 lần trọng lượng của nó trong nước cho vùng da khô",
+          "Oil-free ingredients: Kiểm soát và hạn chế lượng dầu thừa ở trên bề mặt da, làm giảm độ bóng nhờn cho vùng da dầu",
+          "Sodium PCA: Một chất liên kết nước giúp hấp thụ nước trong da. cho vùng da dầu"
+        ],
+        "badGradient": [
+          "Fragrances: Nước hoa là chất gây kích ứng da phổ biến và nổi tiếng là nguyên nhân hàng đầu gây dị ứng da. Mặc dù không phải là vấn đề đối với tất cả mọi người, nhưng da khô sẽ khiến bạn dễ bị kích ứng hơn",
+          "SD Alcohol 40, Denatured Alcohol, Ethanol and Isopropyl Alcohol: Có thể làm khô da.",
+          "Glycolic Acid: Công dụng của nó trong việc kiểm soát dầu, nó không được khuyến khích cho những người có làn da khô.",
+          "Isopropyl Myristate and Isopropyl Palmitate.: Nó có thể khuyến khích các lỗ chân lông bị tắc."
+        ],
+        "oilT": "Y",
+        "timeCare": "<6"
+      },
+      "face": {},
+      "body": {},
+      "id": "68369a70-e66c-4595-91e6-25be76839051",
+      "acne": {
+        "redness": "Ít",
+        "parts": "Mũi",
+        "color": "Trắng",
+        "noOfLession": "27",
+        "category": "Không bỏng rát",
+        "cateParts": "Thông thường",
+        "areaP": 1,
+        "type": "Không viêm",
+        "name": "Mụn trứng cá",
+        "treatment": "topical retinoid",
+        "typeP": 0,
+        "pic": "white-head.png",
+        "severity": 3.75
+      }
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "34"
+      },
+      "skins": {},
+      "face": {},
+      "body": {
+        "bust": 90,
+        "hip": 90,
+        "waist": 60,
+        "type": "Dáng đồng hồ cát",
+        "exercise": "Chơi các môn thể thao ngoài trời. Bơi một giờ mỗi ngày là hoàn hảo cho loại cơ thể này, cũng như các môn thể thao tim mạch cao khác như đạp xe và chạy bộ.",
+        "food": "Cần chọn lựa những loại thực phẩm có chỉ số đường huyết thấp và ăn 5 - 6 bữa nhỏ/ngày. Đồng thời, nên ăn nhiều trái cây tươi và rau cải để cung cấp đủ dinh dưỡng thiết yếu cho cơ thể. Thay vì ăn các loại thực phẩm tinh chế như bánh mì trắng, mì, gạo... bạn nên chuyển sang ăn thực phẩm tươi, hay ngũ cốc nguyên chất sẽ tốt hơn.",
+        "clothes": [
+          {
+            "name": "Áo:\tCổ áo không làm mất đi đường nét tự nhiê của cơ thể. Dáng cổ áo tròn hoặc hơi tròn là lựa chọn tuyệt vời cho dáng người của bạn. Ví dụ như dáng cổ áo Oval, Cổ áo chữ V. Tay áo vừa (ôm), dáng ôm, tay ngắn, tay lỡ (3/4), dáng tay bồng ôm ở phần cổ tay (Bishop). Áo tập trung vào vùng eo mà vẫn giữ được sự cân bằng của dáng và giữ được những đường cong tự nhiên. Những dáng áo có dây ở dưới chân áo hoặc áo buộc eo như dạng wrap.",
+            "pic": "DH-AO.png"
+          },
+          {
+            "name": "Quần: Tốt nhất là bạn nên mặc quần ống rộng và ống suông dài xuống sàn. Quần ống côn, ống suông hoặc ống loe cũng rất tốt.",
+            "pic": "DH-Q.png"
+          },
+          {
+            "name": "Chân váy: Một trong những dáng váy hợp nhất với dáng này là chân váy bút chì. Dáng váy được thiết kế để làm nổi bật được cong và thẳng từ phía đùi xuống chân, tạo nên đường cong cân bằng hoàn hảo.",
+            "pic": "DH-CV.png"
+          },
+          {
+            "name": "Váy: Đầm triết eo hoặc đầm có dây lưng là một trong những lựa chọn tuyệt vời dành cho dáng người này. Hoặc những dáng váy như dây buộc (Wrap) nó giúp bạn giữ được đường cong và che bớt phần bụng. Những chiếc đầm (váy) xòe tròn hoặc dáng đầm (váy) hoa tulip với ít họa tiết sẽ là sự lựa chọn thay thế dành cho bạn.",
+            "pic": "DH-V.png"
+          }
+        ]
+      },
+      "id": "812e6499-5580-418a-a6ca-23d95fe00d1a"
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "43"
+      },
+      "skins": {
+        "normalP": 5,
+        "dryP": 20,
+        "oilP": 60,
+        "combineP": 15,
+        "product": [
+          "Niacinamide (>20%)"
+        ],
+        "sunProtect": {
+          "type": "Chống nắng hóa học"
+        },
+        "type": "Da dầu",
+        "forms": "froam(dạng bọt)",
+        "tip": "Làm sạch hai lần. Vào buổi sáng, bạn có thể sử dụng sữa rửa mặt tạo bọt và tiếp theo là toner có axit glycolic để tẩy tế bào chết trên da, đồng thời làm thông thoáng lỗ chân lông và loại bỏ bụi bẩn. Vào ban đêm, làm sạch và săn chắc da một lần nữa và cân nhắc sử dụng kem dưỡng da ban đêm chứa retinoid để kiểm soát dầu.",
+        "goodGradient": [
+          "Salicylic and buffered glycolic acid: Để hòa tan dầu béo bề mặt nặng hơn và làm sạch sâu lớp biểu bì.",
+          "Oil-free ingredients: Kiểm soát và hạn chế lượng dầu thừa ở trên bề mặt da, làm giảm độ bóng nhờn ở những bạn sở hữu làn da dầu.",
+          "Sodium Hyaluronate: Đây là một thành phần dưỡng ẩm hoạt tính sinh học có thể liên kết độ ẩm gấp 1000 lần trọng lượng của nó đối với da. Nó là một trong những thành phần dưỡng ẩm da được sử dụng phổ biến nhất cho da nhờn",
+          "Sodium PCA: Một chất liên kết nước giúp hấp thụ nước trong da."
+        ],
+        "badGradient": [
+          "Comedogenic products:  Gây bít tắc lỗ chân lông có thể dẫn đến mụn.",
+          "Mineral Oil and Petrolatum: Nó có thể gây tắc lỗ chân lông trên da."
+        ]
+      },
+      "face": {},
+      "body": {},
+      "id": "bb4c0254-17b9-4287-b297-d9dab8a46e51"
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan luu",
+        "age": "54"
+      },
+      "skins": {},
+      "face": {},
+      "body": {},
+      "id": "10e3f6d9-31ee-4ee2-b726-36e30b04db8e",
+      "acne": {
+        "redness": "Trung bình",
+        "parts": "Cổ",
+        "painful": "Y",
+        "pus": "N",
+        "hard": "Y",
+        "color": "Đỏ",
+        "noOfLession": "15",
+        "category": "Bỏng rát",
+        "cateParts": "Hiếm",
+        "areaP": 2,
+        "type": "Nang",
+        "name": "Mụn bọc u",
+        "typeP": 4,
+        "pic": "nodule.png",
+        "severity": 29.25,
+        "treatment": "isotretinoin"
+      }
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "17"
+      },
+      "skins": {
+        "normalP": 155,
+        "dryP": 120,
+        "oilP": 170,
+        "combineP": 150,
+        "product": [
+          "Retinol",
+          "Retinoic",
+          "Da bạn hay tiếp xúc nhiều với bụi bẩn bổ sung thêm AHA (Axit mandelic, axit lactic)và  (Axit béo) gia tăng khả năng làm sạch"
+        ],
+        "sunProtect": {
+          "type": "Chống nắng hóa học",
+          "label": "Very water resistant",
+          "spf": "SPF 50"
+        },
+        "balance": "Y",
+        "color": "Da sáng bóng",
+        "oilT": "Y",
+        "suface": "Da mịn màng",
+        "isStretch": "Y",
+        "toner": "N",
+        "pores": "Nhỏ",
+        "work": "Ngoài trời",
+        "acne": "Y",
+        "deep": "N",
+        "old": "Y",
+        "pregnant": "N",
+        "type": "Da dầu",
+        "forms": "froam(dạng bọt)",
+        "tip": "Làm sạch hai lần. Vào buổi sáng, bạn có thể sử dụng sữa rửa mặt tạo bọt và tiếp theo là toner có axit glycolic để tẩy tế bào chết trên da, đồng thời làm thông thoáng lỗ chân lông và loại bỏ bụi bẩn. Vào ban đêm, làm sạch và săn chắc da một lần nữa và cân nhắc sử dụng kem dưỡng da ban đêm chứa retinoid để kiểm soát dầu.",
+        "goodGradient": [
+          "Salicylic and buffered glycolic acid: Để hòa tan dầu béo bề mặt nặng hơn và làm sạch sâu lớp biểu bì.",
+          "Oil-free ingredients: Kiểm soát và hạn chế lượng dầu thừa ở trên bề mặt da, làm giảm độ bóng nhờn ở những bạn sở hữu làn da dầu.",
+          "Sodium Hyaluronate: Đây là một thành phần dưỡng ẩm hoạt tính sinh học có thể liên kết độ ẩm gấp 1000 lần trọng lượng của nó đối với da. Nó là một trong những thành phần dưỡng ẩm da được sử dụng phổ biến nhất cho da nhờn",
+          "Sodium PCA: Một chất liên kết nước giúp hấp thụ nước trong da."
+        ],
+        "badGradient": [
+          "Comedogenic products:  Gây bít tắc lỗ chân lông có thể dẫn đến mụn.",
+          "Mineral Oil and Petrolatum: Nó có thể gây tắc lỗ chân lông trên da."
+        ],
+        "timeCare": "<6",
+        "sweat": "Y"
+      },
+      "face": {
+        "foreHeadW": 14,
+        "faceL": 31,
+        "cheekW": 13,
+        "jawLine": 10,
+        "a1": 90,
+        "a2": 89,
+        "a3": 78,
+        "type": "Mặt trái tim",
+        "hair": [
+          {
+            "name": "Tóc rẽ ngôi lệch tự nhiên",
+            "des": "Chúng giúp khuôn mặt trở nên bớt cứng nhắc, che đi các phần góc cạnh một cách khéo léo và tạo được sự thân thiện cho người đối diện. Hơn thế nữa, khi bạn thả xõa tóc thì phần thái dương sẽ không bị lộ. Bởi đây chính là phần khuyết điểm mà người có mặt trái tim cần phải che giấu đi nhiều nhất."
+          },
+          {
+            "name": "Tạo mẫu tóc bob ngắn và ôm sát vào mặt",
+            "des": "Kiểu tóc này sẽ giúp các cô nàng có mặt trái tim trở nên thực sự nổi bật và không cần phải quá cầu kì trong việc trang điểm vẫn trở nên rất nổi bật. Vì thế, nếu bạn sở hữu khuôn mặt như vậy thì nên thử xem sao nhé. Chúng sẽ giúp bạn trẻ hơn khá nhiều tuổi."
+          },
+          {
+            "name": "Hô biến với tóc xoăn nhẹ nhàng",
+            "des": "Đừng để tóc của bạn xoăn nhiều quá vì chúng sẽ khiến khuôn mặt trở nên già hơn. Hãy tạo cảm giác nhẹ nhàng cho khuôn mặt bằng kiểu tóc xoăn nhẹ và có thể rẽ mái lệch cũng được nhé. Chúng sẽ khiến mặt trái tim của bạn trở nên gọn nhẹ phần thái dương và toát ra được nhiều nét quyến rũ."
+          }
+        ]
+      },
+      "body": {
+        "bust": 90,
+        "hip": 90,
+        "waist": 60,
+        "type": "Dáng đồng hồ cát",
+        "exercise": "Chơi các môn thể thao ngoài trời. Bơi một giờ mỗi ngày là hoàn hảo cho loại cơ thể này, cũng như các môn thể thao tim mạch cao khác như đạp xe và chạy bộ.",
+        "food": "Cần chọn lựa những loại thực phẩm có chỉ số đường huyết thấp và ăn 5 - 6 bữa nhỏ/ngày. Đồng thời, nên ăn nhiều trái cây tươi và rau cải để cung cấp đủ dinh dưỡng thiết yếu cho cơ thể. Thay vì ăn các loại thực phẩm tinh chế như bánh mì trắng, mì, gạo... bạn nên chuyển sang ăn thực phẩm tươi, hay ngũ cốc nguyên chất sẽ tốt hơn.",
+        "clothes": [
+          {
+            "name": "Áo:\tCổ áo không làm mất đi đường nét tự nhiê của cơ thể. Dáng cổ áo tròn hoặc hơi tròn là lựa chọn tuyệt vời cho dáng người của bạn. Ví dụ như dáng cổ áo Oval, Cổ áo chữ V. Tay áo vừa (ôm), dáng ôm, tay ngắn, tay lỡ (3/4), dáng tay bồng ôm ở phần cổ tay (Bishop). Áo tập trung vào vùng eo mà vẫn giữ được sự cân bằng của dáng và giữ được những đường cong tự nhiên. Những dáng áo có dây ở dưới chân áo hoặc áo buộc eo như dạng wrap.",
+            "pic": "DH-AO.png"
+          },
+          {
+            "name": "Quần: Tốt nhất là bạn nên mặc quần ống rộng và ống suông dài xuống sàn. Quần ống côn, ống suông hoặc ống loe cũng rất tốt.",
+            "pic": "DH-Q.png"
+          },
+          {
+            "name": "Chân váy: Một trong những dáng váy hợp nhất với dáng này là chân váy bút chì. Dáng váy được thiết kế để làm nổi bật được cong và thẳng từ phía đùi xuống chân, tạo nên đường cong cân bằng hoàn hảo.",
+            "pic": "DH-CV.png"
+          },
+          {
+            "name": "Váy: Đầm triết eo hoặc đầm có dây lưng là một trong những lựa chọn tuyệt vời dành cho dáng người này. Hoặc những dáng váy như dây buộc (Wrap) nó giúp bạn giữ được đường cong và che bớt phần bụng. Những chiếc đầm (váy) xòe tròn hoặc dáng đầm (váy) hoa tulip với ít họa tiết sẽ là sự lựa chọn thay thế dành cho bạn.",
+            "pic": "DH-V.png"
+          }
+        ]
+      },
+      "id": "af19de05-8798-4eae-9d7b-c3f5dcee4ca2",
+      "acne": {
+        "redness": "Trung bình",
+        "parts": "Cổ",
+        "painful": "Y",
+        "pus": "Y",
+        "hard": "N",
+        "color": "Vàng",
+        "noOfLession": "15",
+        "category": "Bỏng rát",
+        "cateParts": "Hiếm",
+        "areaP": 2,
+        "type": "Nang",
+        "name": "Mụn Nang",
+        "typeP": 5,
+        "pic": "cystk.png",
+        "severity": 29.25,
+        "treatment": "isotretinoin"
+      }
     }
   ]
 }

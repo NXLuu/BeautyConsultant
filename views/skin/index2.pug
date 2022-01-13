@@ -16,7 +16,7 @@ html(lang='en')
         if error
           .alert.alert-danger(role='alert')
             | #{mess}
-            a.alert-link(href='/skin/result' style="margin-left: 10px") 
+            a.alert-link(href='/result' style="margin-left: 10px") 
               | bỏ qua
         each ques in questions
           .card
@@ -25,6 +25,7 @@ html(lang='en')
             case ques.type
               when 'select'
                 select.card-select(aria-label= ques.question name= ques.answer.name)
+                  option() Bỏ qua
                   each ans in ques.answer.ans 
                     option(value= ans.value) #{ans.name}
               when 'radio'
@@ -32,7 +33,7 @@ html(lang='en')
                 each ans in ques.answer.ans 
                   div
                     .box 
-                      input(id= ques.answer.name+index type="radio" name= ques.answer.name checked value= ans.value)
+                      input(id= ques.answer.name+index type="radio" name= ques.answer.name value= ans.value)
                       span.check
                       label(for=ques.answer.name+index++)
                         | #{ans.name}

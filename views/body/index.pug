@@ -16,20 +16,20 @@ html(lang='en')
         if error
           .alert.alert-danger(role='alert')
             | #{mess}
-            a.alert-link(href='/skin/result' style="margin-left: 10px") 
+            a.alert-link(href='/result' style="margin-left: 10px") 
               | bỏ qua
        
         .card
             h2
-                | Nhập số đo ngực
-            input(id='bust' type="number" name='bust')
+                | Nhập số đo ngực (10 - 200) cm
+            input(id='bust' type="number" name='bust' min="10" max='200')
         .card
             h2
-                | Nhập số đo mông
-            input(id='hip' type="number" name='hip')
+                | Nhập số đo mông (10 - 250) cm
+            input(id='hip' type="number" name='hip' min="10" max='250')
         .card
             h2
-                | Nhập vào số đo eo ?
-            input(id='waist' type="number" name='waist')
+                | Nhập vào số đo eo ? (20 - 400) cm
+            input(id='waist' type="number" name='waist' min="20" max='400')
         button.submit-btn(value='submit') Submit
 

@@ -67,8 +67,12 @@ class SkinController {
         facts.skins.combineP = 0;
         facts.skins.product = [];
         facts.skins.sunProtect = {};
+        
+   
 
         for (let attr in req.body) {
+            if (req.body[attr] === 'Bỏ qua')
+                req.body[attr] = undefined; 
             facts.skins[attr] = req.body[attr];
         }
 
@@ -89,11 +93,23 @@ class SkinController {
         }
 
 
-        console.log(arrayQues);
+        // console.log(arrayQues);  
+
 
         if (arrayQues.length > 0) {
+            let mess = undefined;
+
+            if (facts.skins.type === undefined)
+                mess = 'Không nhận diện được loại da của bạn';
+
+            facts.skins === undefined;
+            user.update(id, facts);
+
             res.render('skin/index2', {
-                questions: arrayQues
+                questions: arrayQues,
+                error: true,
+                action: '/skin/skin1',
+                mess: mess
             });
         }
         else {

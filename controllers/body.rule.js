@@ -18,8 +18,8 @@ bodyRules[2] = new Rule({
 bodyRules[3] = new Rule({
     name: 'DN3',
     when: [
-        (facts) => perDiff(facts.body.hip, facts.body.bust).percent >= 5,
-        (facts) => perDiff(facts.body.hip, facts.body.bust).sign === '<',
+        (facts) => perDiff(facts.body.bust, facts.body.hip).percent >= 5,
+        (facts) => perDiff(facts.body.bust, facts.body.hip).sign === '>',
         (facts) => perDiff(facts.body.waist, facts.body.bust).percent < 5,
     ],
     then: (facts) => {
@@ -58,6 +58,7 @@ bodyRules[6] = new Rule({
         (facts) => perDiff(facts.body.bust, facts.body.hip).percent > 5,
         (facts) => perDiff(facts.body.bust, facts.body.hip).sign === '>',
         (facts) => facts.body.bust - facts.body.waist < 9,
+        (facts) => facts.body.bust - facts.body.waist > 0,
     ],
     then: (facts) => {
         facts.body.type = "Dáng tam giác ngược";

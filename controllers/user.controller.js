@@ -16,7 +16,9 @@ class UserController {
     postForm(req, res, next) {
         let facts = {
             user:{},
-            
+            skins:{},
+            face:{},
+            body:{}
         };
 
         console.log(req.body)
