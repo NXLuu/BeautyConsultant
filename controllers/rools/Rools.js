@@ -9,7 +9,7 @@ const RuleError = require('./RuleError');
 class Rools {
   constructor({ logging } = {}) {
     this.rules = new RuleSet();
-    this.maxPasses = 1000; // emergency stop
+    this.maxPasses = 1000; 
     this.logger = new Logger(logging);
   }
 
@@ -27,13 +27,13 @@ class Rools {
     const conflictResolution = new ConflictResolution({ strategy, logger: this.logger });
     const delegator = new Delegator();
     const proxy = observe(facts, (segment) => delegator.delegate(segment));
-    // match-resolve-act cycle
-    let pass = 0; /* eslint-disable no-await-in-loop */
+   
+    let pass = 0; 
     for (; pass < this.maxPasses; pass += 1) {
       const next = await this.pass(proxy, delegator, memory, conflictResolution, pass);
       if (!next) break; // for
-    } /* eslint-enable no-await-in-loop */
-    // return info
+    } 
+   
     const endDate = new Date();
     return {
       updated: [...memory.accessedByActions], // for backward compatibility
@@ -45,85 +45,68 @@ class Rools {
   }
 
   async pass(facts, delegator, memory, conflictResolution, pass) {
-    this.logger.debug({ message: `evaluate pass ${pass}` });
-    // create agenda for premises
+  
     const premisesAgenda = pass === 0 ? memory.premises : memory.getDirtyPremises();
-    this.logger.debug({ message: `premises agenda length ${premisesAgenda.length}` });
-    // evaluate premises
+
+   
     premisesAgenda.forEach((premise) => {
       try {
-        delegator.set((segment) => { // listen to reading fact segments
+        delegator.set((segment) => { 
           const segmentName = (typeof segment === 'symbol') ? segment.toString() : segment;
-          this.logger.debug({ message: `access fact segment "${segmentName}" in premise`, rule: premise.name });
+      
           memory.segmentInPremise(segment, premise);
         });
-        memory.getState(premise).value = premise.when(facts); // >>> evaluate premise!
-      } catch (error) { // ignore error!
+        memory.getState(premise).value = premise.when(facts); 
+      } catch (error) { 
         memory.getState(premise).value = undefined;
-        this.logger.error({ message: 'error in premise (when)', rule: premise.name, error });
+       
       } finally {
         delegator.unset();
       }
     });
-    // create agenda for actions
+  
     const actionsAgenda = pass === 0 ? memory.actions : premisesAgenda
       .reduce((acc, premise) => [...new Set([...acc, ...premise.actions])], [])
       .filter((action) => {
         const { fired, discarded } = memory.getState(action);
         return !fired && !discarded;
       });
-    this.logger.debug({ message: `actions agenda length ${actionsAgenda.length}` });
-    // evaluate actions
+   
+   
     actionsAgenda.forEach((action) => {
       memory.getState(action).ready = action.premises.reduce((acc, premise) => acc
         && memory.getState(premise).value, true);
     });
-    // create conflict set
-    const conflictSet = memory.actions.filter((action) => { // all actions not only actionsAgenda!
+
+    const conflictSet = memory.actions.filter((action) => { 
       const { fired, ready, discarded } = memory.getState(action);
       return ready && !fired && !discarded;
     });
-    this.logger.debug({ message: `conflict set length ${conflictSet.length}` });
-    // conflict resolution
+   
+   
     const action = conflictResolution.select(conflictSet);
     if (!action) {
-      this.logger.debug({ message: 'evaluation complete' });
-      return false; // done
+  
+      return false; 
     }
-    // fire action
-    this.logger.debug({ message: 'fire action', rule: action.name });
-    memory.getState(action).fired = true; // mark fired first
+   
+    
+    memory.getState(action).fired = true; 
     try {
       memory.clearDirtySegments();
-      delegator.set((segment) => { // listen to writing fact segments
+      delegator.set((segment) => { 
         const segmentName = (typeof segment === 'symbol') ? segment.toString() : segment;
-        this.logger.debug({ message: `access fact segment "${segmentName}" in action`, rule: action.name });
+       
         memory.segmentInAction(segment);
       });
-      await action.fire(facts); // >>> fire action!
-    } catch (error) { // re-throw error!
-      this.logger.error({ message: 'error in action (then)', rule: action.name, error });
+      await action.fire(facts); 
+    } catch (error) { 
+      
       throw new RuleError(`error in action (then): ${action.name}`, error);
     } finally {
       delegator.unset();
     }
-    // final rule
-    if (action.final) {
-      this.logger.debug({ message: 'evaluation stop after final rule', rule: action.name });
-      return false; // done
-    }
-    // activation group
-    if (action.activationGroup) {
-      this.logger.debug({
-        message: `activation group fired "${action.activationGroup}"`,
-        rule: action.name,
-      });
-      this.rules.actionsByActivationGroup[action.activationGroup].forEach((other) => {
-        const state = memory.getState(other);
-        state.discarded = !state.fired;
-      });
-    }
-    // continue with next pass
+    
     return true;
   }
 }

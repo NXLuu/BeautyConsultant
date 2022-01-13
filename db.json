@@ -961,6 +961,176 @@
         "severity": 29.25,
         "treatment": "isotretinoin"
       }
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "35"
+      },
+      "skins": {
+        "normalP": 160,
+        "dryP": 140,
+        "oilP": 110,
+        "combineP": 130,
+        "product": [
+          "Retinol",
+          "Retinoic",
+          "Niacinamide (5%-10%)",
+          "Niacinamide (>20%)"
+        ],
+        "sunProtect": {
+          "spf": "SPF 15 hoặc SPF 30",
+          "type": "Chống nắng vật lý"
+        },
+        "balance": "Y",
+        "color": "Da sáng bóng",
+        "oilT": "Y",
+        "suface": "Da mịn màng",
+        "isStretch": "Y",
+        "toner": "Y",
+        "pores": "Nhỏ",
+        "work": "Trong phòng diều hòa",
+        "acne": "Y",
+        "deep": "Y",
+        "old": "Y",
+        "pregnant": "N",
+        "type": "Da thường",
+        "forms": "gel, lotion",
+        "tip": "Hãy sử dụng các sản phẩm dịu nhẹ và có tác dụng nuôi dưỡng, cấp nước và mang lại sự cân bằng cho làn da của bạn.Giữ mọi thứ đơn giản.không cần mất nhiều thời gian lựa chọn mỹ phẩm chăm sóc da phù hợp.Tuy nhiên, nên lựa chọn các dòng mỹ phẩm có nguồn gốc, uy tín, tránh dùng các sản phẩm trắng nhanh.",
+        "goodGradient": [
+          "Dimethicone: Làm mịn và mền da mà không có dầu",
+          "Algae Extract: chất giữ ẩm nguồn gốc tảo biển",
+          "Panthenol: provitamin B5: dưỡng ẩm làm mềm, dịu không gây kích ứng",
+          "Sodium Hyaluronate: HA có tác dụng hỗ trợ sản xuất collagen trong cơ thể và giúp duy trì độ đàn hồi",
+          "Glycolic Acid: Thuộc họ AHA dễ dàng hấp thụ, thẩm thấu sâu. An toàn cho mọi loại da. Làn da sáng hơn đều màu hơn."
+        ],
+        "badGradient": [
+          "SD Alcohol 40, Denatured Alcohol, Ethanol and Isopropyl Alcohol: Có thể làm khô da.",
+          "Mineral Oil, Petrolatum: Thành phần này có thể gây tắc lỗ chân lông trên da",
+          "Isopropyl Myristate and Isopropyl Palmitate: Thành phần này có thể khuyến khích lỗ chân lông bị tắc"
+        ],
+        "timeCare": "<6"
+      },
+      "face": {},
+      "body": {
+        "bust": 90,
+        "hip": 90,
+        "waist": 60,
+        "type": "Dáng đồng hồ cát",
+        "exercise": "Chơi các môn thể thao ngoài trời. Bơi một giờ mỗi ngày là hoàn hảo cho loại cơ thể này, cũng như các môn thể thao tim mạch cao khác như đạp xe và chạy bộ.",
+        "food": "Cần chọn lựa những loại thực phẩm có chỉ số đường huyết thấp và ăn 5 - 6 bữa nhỏ/ngày. Đồng thời, nên ăn nhiều trái cây tươi và rau cải để cung cấp đủ dinh dưỡng thiết yếu cho cơ thể. Thay vì ăn các loại thực phẩm tinh chế như bánh mì trắng, mì, gạo... bạn nên chuyển sang ăn thực phẩm tươi, hay ngũ cốc nguyên chất sẽ tốt hơn.",
+        "clothes": [
+          {
+            "name": "Áo:\tCổ áo không làm mất đi đường nét tự nhiê của cơ thể. Dáng cổ áo tròn hoặc hơi tròn là lựa chọn tuyệt vời cho dáng người của bạn. Ví dụ như dáng cổ áo Oval, Cổ áo chữ V. Tay áo vừa (ôm), dáng ôm, tay ngắn, tay lỡ (3/4), dáng tay bồng ôm ở phần cổ tay (Bishop). Áo tập trung vào vùng eo mà vẫn giữ được sự cân bằng của dáng và giữ được những đường cong tự nhiên. Những dáng áo có dây ở dưới chân áo hoặc áo buộc eo như dạng wrap.",
+            "pic": "DH-AO.png"
+          },
+          {
+            "name": "Quần: Tốt nhất là bạn nên mặc quần ống rộng và ống suông dài xuống sàn. Quần ống côn, ống suông hoặc ống loe cũng rất tốt.",
+            "pic": "DH-Q.png"
+          },
+          {
+            "name": "Chân váy: Một trong những dáng váy hợp nhất với dáng này là chân váy bút chì. Dáng váy được thiết kế để làm nổi bật được cong và thẳng từ phía đùi xuống chân, tạo nên đường cong cân bằng hoàn hảo.",
+            "pic": "DH-CV.png"
+          },
+          {
+            "name": "Váy: Đầm triết eo hoặc đầm có dây lưng là một trong những lựa chọn tuyệt vời dành cho dáng người này. Hoặc những dáng váy như dây buộc (Wrap) nó giúp bạn giữ được đường cong và che bớt phần bụng. Những chiếc đầm (váy) xòe tròn hoặc dáng đầm (váy) hoa tulip với ít họa tiết sẽ là sự lựa chọn thay thế dành cho bạn.",
+            "pic": "DH-V.png"
+          }
+        ]
+      },
+      "id": "fd529c2c-e25a-4917-a349-f5312c7935e7",
+      "acne": {}
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "45"
+      },
+      "skins": {
+        "normalP": 155,
+        "dryP": 90,
+        "oilP": 210,
+        "combineP": 40,
+        "product": [
+          "Retinol",
+          "Niacinamide (>20%)",
+          "Da bạn hay tiếp xúc nhiều với bụi bẩn bổ sung thêm AHA (Axit mandelic, axit lactic)và  (Axit béo) gia tăng khả năng làm sạch"
+        ],
+        "sunProtect": {
+          "type": "Chống nắng hóa học",
+          "label": "Very water resistant",
+          "spf": "SPF 50"
+        },
+        "balance": "Y",
+        "color": "Da sáng bóng",
+        "oilT": "N",
+        "suface": "Da mịn màng",
+        "isStretch": "Y",
+        "toner": "Y",
+        "pores": "Nhỏ",
+        "work": "Ngoài trời",
+        "acne": "Y",
+        "deep": "N",
+        "old": "N",
+        "pregnant": "N",
+        "type": "Da dầu",
+        "forms": "froam(dạng bọt)",
+        "tip": "Làm sạch hai lần. Vào buổi sáng, bạn có thể sử dụng sữa rửa mặt tạo bọt và tiếp theo là toner có axit glycolic để tẩy tế bào chết trên da, đồng thời làm thông thoáng lỗ chân lông và loại bỏ bụi bẩn. Vào ban đêm, làm sạch và săn chắc da một lần nữa và cân nhắc sử dụng kem dưỡng da ban đêm chứa retinoid để kiểm soát dầu.",
+        "goodGradient": [
+          "Salicylic and buffered glycolic acid: Để hòa tan dầu béo bề mặt nặng hơn và làm sạch sâu lớp biểu bì.",
+          "Oil-free ingredients: Kiểm soát và hạn chế lượng dầu thừa ở trên bề mặt da, làm giảm độ bóng nhờn ở những bạn sở hữu làn da dầu.",
+          "Sodium Hyaluronate: Đây là một thành phần dưỡng ẩm hoạt tính sinh học có thể liên kết độ ẩm gấp 1000 lần trọng lượng của nó đối với da. Nó là một trong những thành phần dưỡng ẩm da được sử dụng phổ biến nhất cho da nhờn",
+          "Sodium PCA: Một chất liên kết nước giúp hấp thụ nước trong da."
+        ],
+        "badGradient": [
+          "Comedogenic products:  Gây bít tắc lỗ chân lông có thể dẫn đến mụn.",
+          "Mineral Oil and Petrolatum: Nó có thể gây tắc lỗ chân lông trên da."
+        ],
+        "timeCare": "<6",
+        "sweat": "Y"
+      },
+      "face": {},
+      "body": {},
+      "id": "2d3a5e33-2609-4622-9907-74b2dd267467",
+      "acne": {
+        "redness": "Trung bình",
+        "parts": "Cổ",
+        "painful": "Y",
+        "pus": "Y",
+        "hard": "N",
+        "color": "Vàng",
+        "noOfLession": "15",
+        "category": "Bỏng rát",
+        "cateParts": "Hiếm",
+        "areaP": 2,
+        "type": "Nang",
+        "name": "Mụn Nang",
+        "typeP": 5,
+        "pic": "cystk.png",
+        "severity": 29.25,
+        "treatment": "isotretinoin"
+      }
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "34"
+      },
+      "skins": {
+        "normalP": 55,
+        "dryP": 30,
+        "oilP": 30,
+        "combineP": 30,
+        "product": [
+          "Niacinamide (>20%)"
+        ],
+        "sunProtect": {},
+        "balance": "Y",
+        "oilT": "N"
+      },
+      "face": {},
+      "body": {},
+      "id": "164cf433-0358-49a4-83db-9af9706fc483"
     }
   ]
 }

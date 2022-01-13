@@ -50,7 +50,7 @@ class WorkingMemory {
       premises = new Set();
       this.premisesBySegment[segment] = premises;
     }
-    premises.add(premise); // might grow over time with "hidden" conditions
+    premises.add(premise); 
   }
 }
 
