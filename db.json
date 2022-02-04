@@ -1131,6 +1131,100 @@
       "face": {},
       "body": {},
       "id": "164cf433-0358-49a4-83db-9af9706fc483"
+    },
+    {
+      "user": {
+        "name": "Nguyen Xuan Luu",
+        "age": "24"
+      },
+      "skins": {
+        "normalP": 145,
+        "dryP": 85,
+        "oilP": 125,
+        "combineP": 175,
+        "product": [
+          "Retinol",
+          "Retinoic",
+          "Niacinamide (5%-10%)"
+        ],
+        "sunProtect": {
+          "spf": "SPF 15 hoặc SPF 30",
+          "type": "Chống nắng hóa học"
+        },
+        "balance": "Y",
+        "color": "Da sáng bóng",
+        "oilT": "Y",
+        "suface": "Da mịn màng",
+        "isStretch": "Y",
+        "toner": "Y",
+        "pores": "To",
+        "work": "Trong phòng bình thường",
+        "acne": "Y",
+        "deep": "Y",
+        "old": "Y",
+        "pregnant": "N",
+        "type": "Da hỗn hợp",
+        "forms": "sử dụng 2 sản phẩm cho 2 vùng da mặt khác nhau: froam(dạng bọt) cho vùng da dầu, cream có oil cho vùng da khô ",
+        "tip": "Chìa khóa để chăm sóc da hỗn hợp đó là tạo sự cân bằng trên da, bạn hãy tìm cách cung cấp độ ẩm cho khu vực da khô, mà không làm tăng độ bóng dầu ở những khu vực da khác. Sử dụng những loại kem dưỡng ẩm khác nhau cho những vùng da mặt khác nhau. Sữa rửa mặt dạng kem",
+        "goodGradient": [
+          "Hyaluronic acid: có thể hấp thụ gấp 1.000 lần trọng lượng của nó trong nước cho vùng da khô",
+          "Oil-free ingredients: Kiểm soát và hạn chế lượng dầu thừa ở trên bề mặt da, làm giảm độ bóng nhờn cho vùng da dầu",
+          "Sodium PCA: Một chất liên kết nước giúp hấp thụ nước trong da. cho vùng da dầu"
+        ],
+        "badGradient": [
+          "Fragrances: Nước hoa là chất gây kích ứng da phổ biến và nổi tiếng là nguyên nhân hàng đầu gây dị ứng da. Mặc dù không phải là vấn đề đối với tất cả mọi người, nhưng da khô sẽ khiến bạn dễ bị kích ứng hơn",
+          "SD Alcohol 40, Denatured Alcohol, Ethanol and Isopropyl Alcohol: Có thể làm khô da.",
+          "Glycolic Acid: Công dụng của nó trong việc kiểm soát dầu, nó không được khuyến khích cho những người có làn da khô.",
+          "Isopropyl Myristate and Isopropyl Palmitate.: Nó có thể khuyến khích các lỗ chân lông bị tắc."
+        ],
+        "timeCare": "<6"
+      },
+      "face": {},
+      "body": {
+        "bust": 90,
+        "hip": 90,
+        "waist": 60,
+        "type": "Dáng đồng hồ cát",
+        "exercise": "Chơi các môn thể thao ngoài trời. Bơi một giờ mỗi ngày là hoàn hảo cho loại cơ thể này, cũng như các môn thể thao tim mạch cao khác như đạp xe và chạy bộ.",
+        "food": "Cần chọn lựa những loại thực phẩm có chỉ số đường huyết thấp và ăn 5 - 6 bữa nhỏ/ngày. Đồng thời, nên ăn nhiều trái cây tươi và rau cải để cung cấp đủ dinh dưỡng thiết yếu cho cơ thể. Thay vì ăn các loại thực phẩm tinh chế như bánh mì trắng, mì, gạo... bạn nên chuyển sang ăn thực phẩm tươi, hay ngũ cốc nguyên chất sẽ tốt hơn.",
+        "clothes": [
+          {
+            "name": "Áo:\tCổ áo không làm mất đi đường nét tự nhiê của cơ thể. Dáng cổ áo tròn hoặc hơi tròn là lựa chọn tuyệt vời cho dáng người của bạn. Ví dụ như dáng cổ áo Oval, Cổ áo chữ V. Tay áo vừa (ôm), dáng ôm, tay ngắn, tay lỡ (3/4), dáng tay bồng ôm ở phần cổ tay (Bishop). Áo tập trung vào vùng eo mà vẫn giữ được sự cân bằng của dáng và giữ được những đường cong tự nhiên. Những dáng áo có dây ở dưới chân áo hoặc áo buộc eo như dạng wrap.",
+            "pic": "DH-AO.png"
+          },
+          {
+            "name": "Quần: Tốt nhất là bạn nên mặc quần ống rộng và ống suông dài xuống sàn. Quần ống côn, ống suông hoặc ống loe cũng rất tốt.",
+            "pic": "DH-Q.png"
+          },
+          {
+            "name": "Chân váy: Một trong những dáng váy hợp nhất với dáng này là chân váy bút chì. Dáng váy được thiết kế để làm nổi bật được cong và thẳng từ phía đùi xuống chân, tạo nên đường cong cân bằng hoàn hảo.",
+            "pic": "DH-CV.png"
+          },
+          {
+            "name": "Váy: Đầm triết eo hoặc đầm có dây lưng là một trong những lựa chọn tuyệt vời dành cho dáng người này. Hoặc những dáng váy như dây buộc (Wrap) nó giúp bạn giữ được đường cong và che bớt phần bụng. Những chiếc đầm (váy) xòe tròn hoặc dáng đầm (váy) hoa tulip với ít họa tiết sẽ là sự lựa chọn thay thế dành cho bạn.",
+            "pic": "DH-V.png"
+          }
+        ]
+      },
+      "id": "42ba070c-b60e-455a-8476-04ad946b0a31",
+      "acne": {
+        "redness": "Trung bình",
+        "parts": "Lưng",
+        "painful": "Y",
+        "pus": "N",
+        "hard": "Y",
+        "color": "Đỏ",
+        "noOfLession": "15",
+        "category": "Bỏng rát",
+        "cateParts": "Hiếm",
+        "areaP": 3,
+        "type": "Nang",
+        "name": "Mụn bọc u",
+        "typeP": 4,
+        "pic": "nodule.png",
+        "severity": 37.5,
+        "treatment": "isotretinoin"
+      }
     }
   ]
 }
